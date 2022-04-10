@@ -2,87 +2,6 @@ $black: #000;
 $main-font: 'Roboto',
 sans-serif;
 $white: #fff;
-$gray: rgb(192, 188, 188);
-
-html {
-    font-size: 10px;
-}
-
-body {
-    font-family: $main-font;
-    font-size: 16px;
-}
-
-/* News */
-.news {
-    max-width: 80vw;
-    margin: 0 auto;
-
-    &__title {
-        font-size: 4.8rem;
-        text-align: center;
-    }
-}
-
-.news-container {
-    &:last-child {
-        border-bottom: 1px solid $black;
-    }
-}
-
-.news-block {
-    &__header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-top: 1px solid $black;
-        border-bottom: 1px solid $black;
-    }
-
-    &__title {
-        font-size: 3.6rem;
-        margin: 30px 0px;
-    }
-
-    &__date {
-        max-width: 100px;
-        font-size: 2rem;
-    }
-
-    &__main {
-        display: flex;
-        justify-content: space-between;
-        gap: 15px;
-        padding: 65px 30px;
-    }
-
-    &__img {
-        &_news1 {
-            background-image: url(/assets/img/grandma.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-width: 360px;
-            height: 260px;
-        }
-
-        &_news2 {
-            background-image: url(/assets/img/sunduki-5.jpg);
-            background-size: cover;
-            background-position: 84% 16%;
-            background-repeat: no-repeat;
-            min-width: 360px;
-            height: 260px;
-        }
-    }
-
-    &__text {
-        font-size: 2rem;
-        text-align: center;
-        max-width: 700px;
-        margin: 0;
-    }
-}
 
 /* CSS reset */
 *,
@@ -397,5 +316,79 @@ body {
 
     &__card:hover .ecc__inside-page {
         box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* News */
+.news {
+    max-width: 80vw;
+    margin: 0 auto;
+
+    &__title {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+.news-container {
+    &:last-child {
+        border-bottom: 1px solid $black;
+    }
+}
+
+.news-block {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid $black;
+        border-bottom: 1px solid $black;
+    }
+
+    &__title {
+        font-size: 2.25rem;
+        margin: 30px 0px;
+    }
+
+    &__date {
+        max-width: 100px;
+        font-size: 1.25rem;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 65px 30px;
+    }
+
+    &__img {
+        &_news1 {
+            background-image: url(/assets/img/grandma.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-width: 360px;
+            height: 260px;
+        }
+
+        &_news2 {
+            background-image: url(/assets/img/sunduki-5.jpg);
+            background-size: cover;
+            background-position: 84% 16%;
+            background-repeat: no-repeat;
+            min-width: 360px;
+            height: 260px;
+        }
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.25rem;
+        text-align: center;
+        max-width: 700px;
+        margin: 0;
     }
 }
