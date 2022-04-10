@@ -14,20 +14,57 @@ body {
   position: relative;
 }
 
+/*Excursions, coliving, coworking*/
 
-/* Main heading for card's front cover */
+.wrapper {
+  background: linear-gradient(
+    to bottom right,
+    #eee8dd,
+    #e3d9c6
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /*height: 100vh;*/
+}
+
+.ecc {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.ecc__section {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.ecc__card {
+  background-color: rgba(0,0,0, .05);
+  box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.5);
+  height: 15rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 15rem;
+}
+
 .ecc__heading {
   font-size: 1.5rem;
   margin-top: .25rem;
 }
 
-/* Main heading for inside page */
 .ecc__inside-heading { 
   padding-bottom: 1rem; 
   width: 100%;
 }
 
-/* For both inside page's main heading and 'view me' text on card front cover */
 .ecc__inside-heading,
 .ecc__view {
   font-size: 1.3rem;
@@ -36,35 +73,28 @@ body {
 }
 
 .ecc__inside-heading_exc,
-.ecc__view_exc { color: #DEB48E; }
+.ecc__view_exc { color: #585858; }
 
 .ecc__inside-heading_coliv,
-.ecc__view_coliv { color: #D2CCB1; }
+.ecc__view_coliv { color: #5e5e5e; }
 
 .ecc__inside-heading_cowor,
-.ecc__view_cowor { color: #D7CBB2; }
+.ecc__view_cowor { color: #787777; }
 
 .ecc__inside-heading_tea,
-.ecc__view_tea { color: #dac199; }
+.ecc__view_tea { color: #878786; }
 
-/* Front cover */
 
 .ecc__top { color: #fafbfa; }
 
-/* For pricing text on card front cover */
 .ecc__price {
   font-size: 1.2rem;
   margin-top: -.2rem;
 }
 
-/* Back cover */
-
-/* For inside page's body text */
 .ecc__text {
   color: #333;
 }
-
-/* Icons ===========================================*/
 
 .ecc__icon {
   fill: #fafbfa;
@@ -73,8 +103,6 @@ body {
   margin-top: -.5rem;
   width: 3.5rem;
 }
-
-/* Buttons =================================================*/
 
 .ecc__btn {
   background-color: transparent;
@@ -105,39 +133,39 @@ body {
 }
 
 .ecc__btn_exc { 
-  border-color: #DEB48E;
-  color: #DEB48E;
+  border-color: #585858;
+  color: #585858;
 }
 
 .ecc__btn_exc::before { 
-  background-color: #DEB48E;
+  background-color: #585858;
 }
 
 .ecc__btn_coliv { 
-  border-color: #D2CCB1;
-  color: #D2CCB1;
+  border-color: #5e5e5e;
+  color: #5e5e5e;
 }
 
 .ecc__btn_coliv::before { 
-  background-color: #D2CCB1;
+  background-color: #5e5e5e;
 }
 
 .ecc__btn_cowor { 
-  border-color: #D7CBB2;
-  color: #D7CBB2;
+  border-color: #787777;
+  color: #787777;
 }
 
 .ecc__btn_cowor::before { 
-  background-color: #D7CBB2;
+  background-color: #787777;
 }
 
 .ecc__btn_tea { 
-    border-color: #dac199;
-    color: #dac199;
+    border-color: #878786;
+    color: #878786;
 }
   
 .ecc__btn_tea::before { 
-    background-color: #dac199;
+    background-color: #878786;
 }
 
 .ecc__btn:hover { 
@@ -148,57 +176,6 @@ body {
   transform: scaleY(1);
 }
 
-/* Layout Structure=========================================*/
-
-.wrapper {
-  background: linear-gradient(
-    to bottom right,
-    #eee8dd,
-    #e3d9c6
-  );
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 450px;
-  width: 1440px;
-  /*height: 100vh;
-  width: 100%;*/
-}
-
-/* Container to hold all cards in one place */
-.ecc {
-  align-items: center;
-  display: flex;
-  flex-wrap: nowrap;
-  height: 100%;
-  justify-content: space-evenly;
-  padding: 1rem;
-}
-
-/* Card ============================================*/
-
-/* Area to hold an individual card */
-.ecc__section {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  width: 100%;
-}
-
-/* A container to hold the flip card and the inside page */
-.ecc__card {
-  background-color: rgba(0,0,0, .05);
-  box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.5);
-  height: 15rem;
-  position: relative;
-  transition: all 1s ease;
-  width: 15rem;
-}
-
-/* Flip card - covering both the front and inside front page */
-
-/* An outer container to hold the flip card. This excludes the inside page */
 .ecc__flip-card {
   height: 15rem;
   perspective: 100rem;
@@ -210,13 +187,10 @@ body {
   z-index: 100;
 }
 
-/* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
-/* This is done so content in the inside page can be selected */
 .ecc__flip-card > * {
   visibility: visible;
 }
 
-/* An inner container to hold the flip card. This excludes the inside page */
 .ecc__container {
   height: 100%;
   position: absolute;
@@ -237,16 +211,12 @@ body {
   width: 100%;
 }
 
-/* Styling for the front side of the flip card */
-
-/* container for the front side */
 .ecc__card-front {
   background-color: #fafbfa;
   height: 15rem;
   width: 15rem;
 }
 
-/* Front side's top section */
 .ecc__top {
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
@@ -260,32 +230,32 @@ body {
 .ecc__top_exc {
   background: linear-gradient(
     to bottom,
-    #ffe4cd,
-    #DEB48E
+    #787777,
+    #585858
   );
 }
 
 .ecc__top_coliv {
   background: linear-gradient(
     to bottom,
-    #e3dcbf,
-    #D2CCB1
+    #878786,
+    #5e5e5e
   );
 }
 
 .ecc__top_cowor {
   background: linear-gradient(
     to bottom,
-    #f3e6c9,
-    #D7CBB2
+    #919090,
+    #787777
   );
 }
 
 .ecc__top_tea {
     background: linear-gradient(
       to bottom,
-      #FCEED8,
-      #dac199
+      #9f9f9f,
+      #878786
     );
 }
   
@@ -296,21 +266,16 @@ body {
     font-size: 0.95rem;
 }
 
-/* Front card's bottom section */
 .ecc__bot {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-/* Styling for the back side of the flip card */
-
 .ecc__card-back {
   background-color: #fafbfa;
   transform: rotateY(180deg);
 }
-
-/* Specifically targeting the <img> element */
 
 .ecc__img img {
   clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
@@ -320,8 +285,6 @@ body {
   width: 100%;
   object-position: center;
 }
-
-/* Inside page */
 
 .ecc__inside-page {
   background-color: #fafbfa;
@@ -344,21 +307,16 @@ body {
   width: 100%;
 }
 
-/* Functionality ====================================*/
-
-/* This is to keep the card centered (within its container) when opened */
 .ecc__card:hover {
   box-shadow:
   -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.75);
   width: 30rem;
 }
 
-/* When the card is hovered, the flip card container will rotate */
 .ecc__card:hover .ecc__container {
   transform: rotateY(-180deg);
 }
 
-/* When the card is hovered, the shadow on the inside page will shrink to the left */
 .ecc__card:hover .ecc__inside-page {
   box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0,0,0,0.1);
 }
