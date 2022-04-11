@@ -66,16 +66,16 @@ body {
     margin-top: .2rem;
   }
   &__inside-heading_exc,
-  &__view_exc { color: #585858; }
+  &__view_exc { color: #779e95; }
   
   &__inside-heading_coliv,
-  &__view_coliv { color: #5e5e5e; }
+  &__view_coliv { color: #4d4637; }
   
   &__inside-heading_cowor,
-  &__view_cowor { color: #787777; }
+  &__view_cowor { color: #8eb1a8; }
   
   &__inside-heading_tea,
-  &__view_tea { color: #878786; }
+  &__view_tea { color: #b3aa99; }
   
   
   &__top { color: #fafbfa; }
@@ -126,39 +126,39 @@ body {
   }
   
   &__btn_exc { 
-    border-color: #585858;
-    color: #585858;
+    border-color: #779e95;
+    color: #779e95;
   }
   
   &__btn_exc::before { 
-    background-color: #585858;
+    background-color: #779e95;
   }
   
   &__btn_coliv { 
-    border-color: #5e5e5e;
-    color: #5e5e5e;
+    border-color: #4d4637;
+    color: #4d4637;
   }
   
   &__btn_coliv::before { 
-    background-color: #5e5e5e;
+    background-color: #4d4637;
   }
   
   &__btn_cowor { 
-    border-color: #787777;
-    color: #787777;
+    border-color: #8eb1a8;
+    color: #8eb1a8;
   }
   
   &__btn_cowor::before { 
-    background-color: #787777;
+    background-color: #8eb1a8;
   }
   
   &__btn_tea { 
-      border-color: #878786;
-      color: #878786;
+      border-color: #b3aa99;
+      color: #b3aa99;
   }
     
   &__btn_tea::before { 
-      background-color: #878786;
+      background-color: #b3aa99;
   }
   
   &__btn:hover { 
@@ -223,32 +223,32 @@ body {
   &__top_exc {
     background: linear-gradient(
       to bottom,
-      #787777,
-      #585858
+      #acd4cb,
+      #779e95
     );
   }
   
   &__top_coliv {
     background: linear-gradient(
       to bottom,
-      #878786,
-      #5e5e5e
+      #b3aa99,
+      #4d4637
     );
   }
   
   &__top_cowor {
     background: linear-gradient(
       to bottom,
-      #919090,
-      #787777
+      #a4cac1,
+      #8eb1a8
     );
   }
   
   &__top_tea {
       background: linear-gradient(
         to bottom,
-        #9f9f9f,
-        #878786
+        #d7cbb2,
+        #b3aa99
       );
   }
   
