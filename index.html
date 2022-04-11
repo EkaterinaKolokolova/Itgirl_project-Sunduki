@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/normalize.css" />
     <link rel="stylesheet" href="style/media.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/gallery.css">
     <title>Сундуки Быньги</title>
   </head>
   <body>
@@ -30,7 +31,13 @@
                 <div class="ecc__container">
                   <div class="ecc__card-front">
                     <div class="ecc__top ecc__top_exc">
-                      <svg class="ecc__icon">
+                      <svg
+                        xml
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 64 64"
+                        class="ecc__icon"
+                      >
                         <title />
                         <g data-name="Layer 9" id="Layer_9">
                           <path
@@ -97,9 +104,13 @@
                   <div class="ecc__card-front">
                     <div class="ecc__top ecc__top_coliv">
                       <svg
+                        xml
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
                         class="ecc__icon"
                         data-name="Layer 1"
-                        viewBox="0 0 500 500"
+                        id="Layer_1"
+                        viewBox="0 0 512 512"
                       >
                         <title />
                         <path
@@ -163,7 +174,13 @@
                 <div class="ecc__container">
                   <div class="ecc__card-front">
                     <div class="ecc__top ecc__top_cowor">
-                      <svg viewBox="0 0 512 512" class="ecc__icon">
+                      <svg
+                        xml
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        class="ecc__icon"
+                      >
                         <title />
                         <g data-name="/ OUTLINE" id="_OUTLINE">
                           <rect height="16" width="16" x="248" y="248" />
@@ -217,8 +234,12 @@
                   <div class="ecc__card-front">
                     <div class="ecc__top ecc__top_tea">
                       <svg
+                        xml
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
                         enable-background="new 0 0 36.941 41.446"
                         height="41.446px"
+                        id="Layer_1"
                         version="1.1"
                         viewBox="0 0 36.941 41.446"
                         width="36.941px"
@@ -317,7 +338,46 @@
       </div>
 
       <!--Gallery-->
-      <section></section>
+      <section class="gallery">
+        <div class="gallery_wrapper">
+          <input checked type="radio" name="respond" id="desktop">
+          <article id="slider">
+            <div class="galery__title">
+              <h2>Фотогалерея</h2>
+            </div>
+            <input checked type="radio" name="slider" id="switch1">
+            <input type="radio" name="slider" id="switch2">
+            <input type="radio" name="slider" id="switch3">
+            <input type="radio" name="slider" id="switch4">
+            <input type="radio" name="slider" id="switch5">
+            <div id="slides">
+              <div id="overflow">
+                <div class="image">
+                  <article><img src="assets/img/church.jpg"></article>
+                  <article><img src="assets/img/church-2.jpg"></article>
+                  <article><img src="assets/img/sunduki-1.jpg"></article>
+                  <article><img src="assets/img/cowor.jpg"></article>
+                  <article><img src="assets/img/coliv.jpg"></article>
+                </div>
+              </div>
+            </div>
+            <div id="controls">
+              <label for="switch1"></label>
+              <label for="switch2"></label>
+              <label for="switch3"></label>
+              <label for="switch4"></label>
+              <label for="switch5"></label>
+            </div>
+            <div id="active">
+              <label for="switch1"></label>
+              <label for="switch2"></label>
+              <label for="switch3"></label>
+              <label for="switch4"></label>
+              <label for="switch5"></label>
+            </div>
+          </article>
+        </div>
+      </section>
       <!--News-->
       <section></section>
       <!--Events-->
@@ -329,5 +389,6 @@
     </main>
     <!--footer-->
     <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
   </body>
 </html>
