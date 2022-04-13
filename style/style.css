@@ -702,4 +702,93 @@ footer {
   right: 3rem;
   bottom: 0.5rem;
 }
+
+/*events*/
+.list-of-events {
+  padding: 10px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.div-events{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 40px;
+  font-family: Roboto;
+  
+}
+
+h1{
+  font-size: 3rem;
+  color: #2f2815;
+  font-family: Ardeco, serif;
+}
+#events-section-title{
+  margin: 5px 0px 45px;
+  
+}
+
+.list-of-events-options {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+
+.events-box{
+  display: flex; 
+  min-height: 130px;
+border-right: 2px solid;
+border-color: #2f2815;
+
+border-top: 2px solid;
+align-items: stretch;
+margin-left: 50px;
+
+
+}
+
+.events-boxes {
+  padding-bottom: 100px;
+  width: 33.3%;
+  min-width: 400px;
+  
+  
+}
+
+.events-box-data{
+  min-width: 100px;
+  
+}
+.month-year{
+  text-transform: uppercase;
+  margin:0px;
+  
+
+  
+}
+
+.data{
+  margin: 10px 0px 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2f2815;
+  
+}
+.events-box-events-text {
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
 /*# sourceMappingURL=style.css.map */
