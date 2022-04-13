@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Ardeco';
+  src: url(../assets/fonts/Ardeco/Ardeco.ttf);
+}
+
 /* CSS reset */
 *,
 *::after,
