@@ -27,3 +27,22 @@ $desktop: 1280px;
         }
     }
 }
+
+@media screen and (min-width:1023px) {
+    #navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    #navbar {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:766px) {
+    .menu-logo {
+        display: none;
+    }
+}
