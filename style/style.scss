@@ -22,6 +22,20 @@ body {
     position: relative;
 }
 
+/*Header*/
+
+.menu_logo{
+  display: grid;
+grid-template-columns: 1fr 3fr;
+border: 2px solid red;
+}
+
+.logo-sunduki {
+  display: flex;
+
+
+border: 2px solid black;
+}
 /*Excursions, coliving, coworking*/
 
 .wrapper {
