@@ -3,16 +3,6 @@
   src: url(../assets/fonts/Ardeco/Ardeco.ttf);
 }
 
-@font-face {
-  font-family: 'Vezitsa';
-  src: url(../assets/fonts/ofont.ru_Vezitsa.ttf);
-}
-
-@font-face {
-  font-family: 'Triod';
-  src: url(../assets/fonts/ofont.ru_TriodPostnaja.ttf);
-}
-
 /* CSS reset */
 *,
 *::after,
@@ -382,8 +372,7 @@ body {
 
 /* News */
 .news {
-  max-width: 85vw;
-  margin: 0 auto;
+  margin: 0 50px;
 }
 
 .news__title {

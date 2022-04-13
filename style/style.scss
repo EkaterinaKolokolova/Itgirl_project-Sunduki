@@ -1,23 +1,12 @@
-$black: #000;
 $main-font: 'Roboto',
 sans-serif;
 $title-font: 'Ardeco',
 sans-serif;
-$white: #fff;
+$black: #000;
 
 @font-face {
     font-family: 'Ardeco';
     src: url(../assets/fonts/Ardeco/Ardeco.ttf);
-}
-
-@font-face {
-    font-family: 'Vezitsa';
-    src: url(../assets/fonts/ofont.ru_Vezitsa.ttf);
-}
-
-@font-face {
-    font-family: 'Triod';
-    src: url(../assets/fonts/ofont.ru_TriodPostnaja.ttf);
 }
 
 /* CSS reset */
@@ -338,8 +327,7 @@ body {
 
 /* News */
 .news {
-    max-width: 85vw;
-    margin: 0 auto;
+    margin: 0 50px;
 
     &__title {
         font-family: $title-font;

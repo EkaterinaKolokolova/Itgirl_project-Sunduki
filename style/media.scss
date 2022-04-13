@@ -1,0 +1,29 @@
+$mobile: 375px;
+$tablet: 768px;
+$big-tablet: 1025px;
+$desktop: 1280px;
+
+@media screen and (max-width: $big-tablet) {
+    .news {
+        margin: 0 20px;
+
+        &__title {
+            margin: 25px;
+        }
+    }
+
+    .news-block {
+        &__title {
+            margin: 20px 0px;
+        }
+
+        &__date {
+            max-width: 70px;
+        }
+
+        &__main {
+            flex-direction: column;
+            padding: 30px;
+        }
+    }
+}
