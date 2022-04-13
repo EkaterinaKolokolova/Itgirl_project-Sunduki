@@ -43,6 +43,10 @@ a:hover {
           align-items: center;
 }
 
+.about__head {
+  font-family: Ardeco;
+}
+
 .about__images {
   width: 100%;
 }
