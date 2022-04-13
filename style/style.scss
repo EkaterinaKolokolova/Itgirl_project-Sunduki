@@ -329,13 +329,20 @@ a:hover {
 }
 /*footer*/
 footer {
-  display: flex;
   background-color: #C4C4C4;
+  display: flex;
+  justify-content: center;
 }
 .social {
-  display: flex;
-  &__logo {
-    width: 10rem;
-    height: 9rem;
+  &__list {
+    display: inline;
+    list-style-type: none;
+  }
 }
+.logo {
+  position: absolute;
+  width: 10rem;
+  height: 9rem;
+  right: 2rem;
+  bottom: 11rem;
 }

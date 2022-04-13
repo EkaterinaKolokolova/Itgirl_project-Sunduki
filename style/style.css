@@ -399,20 +399,25 @@ a:hover {
 
 /*footer*/
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background-color: #C4C4C4;
-}
-
-.social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.social__logo {
+.social__list {
+  display: inline;
+  list-style-type: none;
+}
+
+.logo {
+  position: absolute;
   width: 10rem;
   height: 9rem;
+  right: 2rem;
+  bottom: 11rem;
 }
 /*# sourceMappingURL=style.css.map */
