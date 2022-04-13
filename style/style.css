@@ -34,21 +34,21 @@ body {
             }
         }    
     }*/ }
-  .card_excursiion {
+  .card_excursion {
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
-    .card_excursiion:hover {
+    .card_excursion:hover {
       background-image: url(../assets/img/exc.jpg);
       background-repeat: no-repeat;
       background-size: cover; }
-      .card_excursiion:hover .card__title {
+      .card_excursion:hover .card__title {
         color: #ffffff;
         text-shadow: 1px 1px 3px #000000; }
-      .card_excursiion:hover .card__text {
+      .card_excursion:hover .card__text {
         visibility: visible; }
-      .card_excursiion:hover .arrow {
+      .card_excursion:hover .arrow {
         fill: #ffffff; }
   .card_coliving {
     grid-column: 2/3;
