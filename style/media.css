@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=media.css.map */
+@media screen and (max-width: 1025px) {
+  .news {
+    margin: 0 20px;
+  }
+  .news__title {
+    margin: 25px;
+  }
+  .news-block__title {
+    margin: 20px 0px;
+  }
+  .news-block__date {
+    max-width: 70px;
+  }
+  .news-block__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  #navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  #navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 766px) {
+  .menu-logo {
+    display: none;
+  }
+}
+/*# sourceMappingURL=media.css.map */
