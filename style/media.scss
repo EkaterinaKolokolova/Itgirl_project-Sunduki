@@ -3,46 +3,48 @@ $tablet: 768px;
 $big-tablet: 1025px;
 $desktop: 1280px;
 
-@media screen and (max-width: $big-tablet) {
-    .news {
-        margin: 0 20px;
+body {
+    @media screen and (max-width: $big-tablet) {
+        .news {
+            margin: 0 30px;
 
-        &__title {
-            margin: 25px;
+            &__title {
+                margin: 25px;
+            }
+        }
+
+        .news-block {
+            &__title {
+                margin: 20px 0px;
+            }
+
+            &__date {
+                max-width: 70px;
+            }
+
+            &__main {
+                flex-direction: column;
+                padding: 30px;
+            }
         }
     }
 
-    .news-block {
-        &__title {
-            margin: 20px 0px;
-        }
-
-        &__date {
-            max-width: 70px;
-        }
-
-        &__main {
-            flex-direction: column;
-            padding: 30px;
+    @media screen and (min-width:1023px) {
+        #navbar {
+            display: none;
         }
     }
-}
 
-@media screen and (min-width:1023px) {
-    #navbar {
-        display: none;
-    }
-}
+    @media screen and (min-width:767px) and (max-width:1023px) {
+        #navbar {
+            display: none;
+        }
 
-@media screen and (min-width:767px) and (max-width:1023px) {
-    #navbar {
-        display: none;
     }
 
-}
-
-@media screen and (min-width:300px) and (max-width:766px) {
-    .menu-logo {
-        display: none;
+    @media screen and (min-width:300px) and (max-width:766px) {
+        .menu-logo {
+            display: none;
+        }
     }
 }
