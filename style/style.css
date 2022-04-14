@@ -45,6 +45,7 @@ a:hover {
 
 .about__head {
   font-family: Ardeco;
+  font-size: 48px;
 }
 
 .about__images {
@@ -54,6 +55,10 @@ a:hover {
 .about__title {
   padding: 4.1rem 3.3rem;
   text-align: center;
+}
+
+.about____text {
+  font-size: 20px;
 }
 
 a {
@@ -693,6 +698,10 @@ footer {
   width: 45px;
   height: 45px;
   padding: 10px;
+}
+
+.social__text {
+  font-size: 10px;
 }
 
 .logo {
