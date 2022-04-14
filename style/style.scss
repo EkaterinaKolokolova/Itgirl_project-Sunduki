@@ -613,6 +613,7 @@ h1 {
     font-family: Ardeco, serif;
 }
 
+
 #events-section-title {
     margin: 5px 0px 45px;
 
@@ -632,10 +633,10 @@ h1 {
 .events-box {
     display: flex;
     min-height: 130px;
-    border-right: 2px solid;
+    border-right: 1px solid;
     border-color: #2f2815;
 
-    border-top: 2px solid;
+    border-top: 1px solid;
     align-items: stretch;
     margin-left: 50px;
 
@@ -649,7 +650,11 @@ h1 {
 
 
 }
-
+.events-boxes:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .events-box-data {
     min-width: 100px;
 
@@ -673,7 +678,7 @@ h1 {
 
 .events-box-events-text {
     margin: 10px;
-    font-weight: bolder;
+    font-weight: normal;
     font-size: 1.3rem;
 }
 

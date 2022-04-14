@@ -735,9 +735,9 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   min-height: 130px;
-  border-right: 2px solid;
+  border-right: 1px solid;
   border-color: #2f2815;
-  border-top: 2px solid;
+  border-top: 1px solid;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -748,6 +748,11 @@ h1 {
   padding-bottom: 100px;
   width: 33.3%;
   min-width: 400px;
+}
+
+.events-boxes:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .events-box-data {
@@ -768,7 +773,7 @@ h1 {
 
 .events-box-events-text {
   margin: 10px;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 1.3rem;
 }
 
