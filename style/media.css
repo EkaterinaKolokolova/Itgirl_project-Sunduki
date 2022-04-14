@@ -22,13 +22,13 @@
 
 @media screen and (min-width: 1023px) {
   body #navbar {
-    display: none;
+    /*display: none;*/
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   body #navbar {
-    display: none;
+    /*display: none;*/
   }
 }
 
