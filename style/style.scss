@@ -596,7 +596,7 @@ a {
     width: 100%;
 }
 
-.div-events{
+.div-events {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -604,17 +604,18 @@ a {
     margin-right: 70px;
     margin-top: 40px;
     font-family: Roboto;
-    
+
 }
 
-h1{
+h1 {
     font-size: 3rem;
     color: #2f2815;
     font-family: Ardeco, serif;
 }
-#events-section-title{
+
+#events-section-title {
     margin: 5px 0px 45px;
-    
+
 }
 
 .list-of-events-options {
@@ -624,19 +625,19 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    
-    
+
+
 }
 
-.events-box{
-    display: flex; 
+.events-box {
+    display: flex;
     min-height: 130px;
-border-right: 2px solid;
-border-color: #2f2815;
+    border-right: 2px solid;
+    border-color: #2f2815;
 
-border-top: 2px solid;
-align-items: stretch;
-margin-left: 50px;
+    border-top: 2px solid;
+    align-items: stretch;
+    margin-left: 50px;
 
 
 }
@@ -645,33 +646,108 @@ margin-left: 50px;
     padding-bottom: 100px;
     width: 33.3%;
     min-width: 400px;
-    
-    
+
+
 }
 
-.events-box-data{
+.events-box-data {
     min-width: 100px;
-    
+
 }
-.month-year{
+
+.month-year {
     text-transform: uppercase;
-    margin:0px;
-    
+    margin: 0px;
 
-    
+
+
 }
 
-.data{
+.data {
     margin: 10px 0px 0px;
     font-size: 2rem;
     font-weight: bold;
     color: #2f2815;
-    
+
 }
+
 .events-box-events-text {
     margin: 10px;
     font-weight: bolder;
     font-size: 1.3rem;
+}
+
+/*Partners*/
+.partners {
+    display: block;
+    justify-content: center;
+    margin: 0 auto 6rem;
+
+    &__title {
+        font-family: $title-font;
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        margin: 0 auto 3rem;
+        font-weight: bold;
+    }
+
+    &__cart {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, 25rem);
+        gap: 3rem;
+    }
+
+    &__img {
+        width: 25rem;
+    }
+}
+
+/*Contact*/
+.contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 34rem;
+    margin-bottom: 9rem;
+
+    &__container {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__map {
+        margin: 0 auto;
+        width: 100%;
+        height: 38rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    &__container {
+        width: 19rem;
+        background-color: white;
+        opacity: 0.7;
+        z-index: 2;
+        padding: 1.25rem;
+        margin: 3.5rem;
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        font-family: $title-font;
+    }
+
+    &__hint {
+        padding: 1.25;
+        font-size: 1.25rem;
+    }
 }
 
 /*footer*/
