@@ -69,13 +69,20 @@ a {
       grid-template-columns: 1fr 3fr;
   -ms-grid-rows: 30vh;
       grid-template-rows: 30vh;
-      grid-template-areas: "logo-sunduki nav_menu";
+      grid-template-areas: "logo-sunduki" "nav-menu";
 }
 
 .logo-sunduki {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo-sunduki;
+  -ms-grid-rows: 1;
+      grid-template-rows: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 
 #top {
@@ -91,8 +98,10 @@ a {
 .thekey {
   position: relative;
   top: 20px;
-  left: 15px;
-  width: 20vw;
+  left: 5px;
+  width: 20rem;
+  -webkit-box-shadow: 0px 0px 5px 1px #000;
+          box-shadow: 0px 0px 5px 1px #000;
 }
 
 #menuToggle {
@@ -160,7 +169,8 @@ a {
   display: block;
   width: 33px;
   height: 4px;
-  margin-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   position: relative;
   background: #cdcdcd;
   z-index: 1;
@@ -190,14 +200,15 @@ a {
   padding: 50px;
   padding-top: 125px;
   list-style-type: none;
-  font-family: 'Freestyle Script', "Avenir", sans-serif;
+  background: #ebdfc6;
+  font-family: "Ardeco", sans-serif, "Avenir", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 1rem;
   line-height: 42px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   -webkit-transform: translate(-100%, 0);
@@ -213,23 +224,32 @@ a {
   font-size: 22px;
 }
 
-.nav_menu {
+.nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: #4d4637;
-  font-family: 'Roboto';
+  font-family: "Ardeco", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 30px;
   text-align: center;
+  margin-right: 5rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav-menu;
+  -ms-grid-rows: 1;
+      grid-template-rows: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
 }
 
 /*Excursions, coliving, coworking*/
@@ -678,6 +698,202 @@ a {
   text-align: center;
   max-width: 700px;
   margin: 0;
+}
+
+/*events*/
+.list-of-events {
+  padding: 10px;
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.div-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 40px;
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #2f2815;
+  font-family: Ardeco, serif;
+}
+
+#events-section-title {
+  margin: 5px 0px 45px;
+}
+
+.list-of-events-options {
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.events-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 130px;
+  border-right: 1px solid;
+  border-color: #2f2815;
+  border-top: 1px solid;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-left: 50px;
+}
+
+.events-boxes {
+  padding-bottom: 100px;
+  width: 33.3%;
+  min-width: 400px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.events-boxes:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.events-box-data {
+  min-width: 100px;
+}
+
+.month-year {
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.data {
+  margin: 10px 0px 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2f2815;
+}
+
+.events-box-events-text {
+  margin: 10px;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+/*Partners*/
+.partners {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 6rem;
+}
+
+.partners__title {
+  font-family: "Ardeco", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin: 0 auto 3rem;
+  font-weight: bold;
+}
+
+.partners__cart {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (25rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 25rem);
+  gap: 3rem;
+}
+
+.partners__img {
+  width: 25rem;
+}
+
+/*Contact*/
+.contact {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  height: 34rem;
+  margin-bottom: 9rem;
+}
+
+.contact__container {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact__map {
+  margin: 0 auto;
+  width: 100%;
+  height: 38rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.contact__container {
+  width: 19rem;
+  background-color: white;
+  opacity: 0.7;
+  z-index: 2;
+  padding: 1.25rem;
+  margin: 3.5rem;
+}
+
+.contact__title {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-family: "Ardeco", sans-serif;
+}
+
+.contact__hint {
+  padding: 1.25rem;
+  font-size: 1.25rem;
 }
 
 /*footer*/

@@ -80,7 +80,6 @@ body {
         .ecc {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-row: 1fr 1fr;
             gap: .5rem;
         
             &__card {
@@ -186,7 +185,11 @@ body {
         #navbar {
             display: none;
         }
-
+        .nav-menu {
+            display: flex;
+            flex-direction: column;
+            margin-left: 5rem;
+        }
     }
 
     @media (max-width: 970px) {
@@ -351,7 +354,6 @@ body {
         .ecc {
             display: grid;
             grid-template-columns: 1fr;
-            grid-row: 1fr;
             gap: .3rem;
         
             &__card {
@@ -430,7 +432,6 @@ body {
         .ecc {
             display: grid;
             grid-template-columns: 1fr;
-            grid-row: 1fr;
             gap: .2rem;
         
             &__card {
