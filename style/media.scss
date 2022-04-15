@@ -501,6 +501,28 @@ body {
                 width: 24rem;
             }
         }
+        
+        .contact {
+            margin: 0 auto;
+            &__map {
+            height: 450px;
+            }
+
+            &__container {
+            margin: 10px 10px 10px 50px ;
+            }
+        }
+
+        .partners {
+            margin: 0 auto 6rem;
+            &__img {
+                width: 280px;
+            }
+            &__cart {
+                grid-template-columns: repeat(auto-fit, 280px);
+                gap: 20px;
+            }
+        }
     }
 
     @media (max-width: 390px) {

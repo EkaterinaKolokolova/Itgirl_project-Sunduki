@@ -426,6 +426,26 @@
   body .ecc__card:hover {
     width: 24rem;
   }
+  body .contact {
+    margin: 0 auto;
+  }
+  body .contact__map {
+    height: 450px;
+  }
+  body .contact__container {
+    margin: 10px 10px 10px 50px;
+  }
+  body .partners {
+    margin: 0 auto 6rem;
+  }
+  body .partners__img {
+    width: 280px;
+  }
+  body .partners__cart {
+    -ms-grid-columns: (280px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 280px);
+    gap: 20px;
+  }
 }
 
 @media (max-width: 390px) {
