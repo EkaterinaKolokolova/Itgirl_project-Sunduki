@@ -37,22 +37,22 @@
     font-size: 1rem;
     font-weight: 700;
     margin-top: 0.1rem;
-    padding: 0.1rem 0.15rem;
+    padding: .1rem .15rem;
     width: 80%;
   }
   body .ecc__heading {
     font-size: 1.7rem;
-    margin-top: 0.15rem;
+    margin-top: .15rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.2rem;
     font-size: 1rem;
     font-weight: 700;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__desc {
     font-size: 1.2rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
 }
 
@@ -64,10 +64,8 @@
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-template-rowss: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0.5rem;
+        grid-template-columns: 1fr 1fr;
+    gap: .5rem;
   }
   body .ecc__card {
     height: 20rem;
@@ -75,20 +73,20 @@
   }
   body .ecc__heading {
     font-size: 2rem;
-    margin-top: 0.4rem;
+    margin-top: .4rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.8rem;
     font-size: 2rem;
-    margin-top: 0.6rem;
+    margin-top: .6rem;
   }
   body .ecc__view {
     font-size: 1.8rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
   }
   body .ecc__desc {
     font-size: 2rem;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
   }
   body .ecc__icon {
     font-size: 5vw;
@@ -99,7 +97,7 @@
     border: 2px solid;
     font-size: 1.5rem;
     margin-top: 0.4rem;
-    padding: 0.5rem 0.55rem;
+    padding: .5rem .55rem;
     width: 90%;
   }
   body .ecc__flip-card {
@@ -141,8 +139,8 @@
   body .news-block__main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 30px;
   }
 }
@@ -163,8 +161,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 5rem;
   }
 }
@@ -174,7 +172,7 @@
     height: 33rem;
   }
   body .ecc {
-    gap: 0.4rem;
+    gap: .4rem;
   }
   body .ecc__card {
     height: 15rem;
@@ -182,23 +180,23 @@
   }
   body .ecc__heading {
     font-size: 1.7rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
   }
   body .ecc__text {
     font-size: 0.9rem;
   }
   body .ecc__view {
     font-size: 1.3rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__desc {
     font-size: 1.5rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
   }
   body .ecc__icon {
     font-size: 3vw;
@@ -209,7 +207,7 @@
     border: 1px solid;
     font-size: 1.2rem;
     margin-top: 0.2rem;
-    padding: 0.2rem 0.35rem;
+    padding: .2rem .35rem;
     width: 80%;
   }
   body .ecc__flip-card {
@@ -224,7 +222,7 @@
     min-height: 15rem;
   }
   body .ecc__inside-page {
-    padding: 0.3rem;
+    padding: .3rem;
     width: 15rem;
   }
   body .ecc__card:hover {
@@ -240,7 +238,7 @@
     height: 26rem;
   }
   body .ecc {
-    gap: 0.3rem;
+    gap: .3rem;
   }
   body .ecc__card {
     height: 12rem;
@@ -252,18 +250,18 @@
   body .ecc__inside-heading {
     padding-bottom: 0.3rem;
     font-size: 1rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
   }
   body .ecc__text {
     font-size: 0.7rem;
   }
   body .ecc__view {
     font-size: 1rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__desc {
     font-size: 1.3rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
   }
   body .ecc__icon {
     font-size: 3vw;
@@ -273,7 +271,7 @@
   body .ecc__btn {
     font-size: 1.1rem;
     margin-top: 0.2rem;
-    padding: 0.2rem 0.35rem;
+    padding: .2rem .35rem;
     width: 80%;
   }
   body .ecc__flip-card {
@@ -282,13 +280,13 @@
   }
   body .ecc__top {
     height: 10rem;
-    padding: 1rem 0.5rem;
+    padding: 1rem .5rem;
   }
   body .ecc__img img {
     min-height: 12rem;
   }
   body .ecc__inside-page {
-    padding: 0.2rem;
+    padding: .2rem;
     width: 12rem;
   }
   body .ecc__card:hover {
@@ -304,10 +302,8 @@
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-template-rows: 1;
-    grid-template-rows: 1fr;
-    gap: 0.3rem;
+        grid-template-columns: 1fr;
+    gap: .3rem;
   }
   body .ecc__card {
     height: 15rem;
@@ -315,20 +311,20 @@
   }
   body .ecc__heading {
     font-size: 1.5rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.2rem;
     font-size: 1.2rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__view {
     font-size: 1.3rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__desc {
     font-size: 1.3rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__icon {
     font-size: 3vw;
@@ -339,7 +335,7 @@
     border: 1px solid;
     font-size: 1rem;
     margin-top: 0.3rem;
-    padding: 0.2rem 0.35rem;
+    padding: .2rem .35rem;
     width: 90%;
   }
   body .ecc__text {
@@ -367,16 +363,14 @@
 
 @media (max-width: 480px) {
   body .wrapper {
-    height: 62em;
+    height: 50em;
   }
   body .ecc {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-template-rows: 1;
-    grid-template-rows: 1fr;
-    gap: 0.2rem;
+        grid-template-columns: 1fr;
+    gap: .2rem;
   }
   body .ecc__card {
     height: 12rem;
@@ -384,20 +378,20 @@
   }
   body .ecc__heading {
     font-size: 1.2rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.2rem;
     font-size: 1rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__view {
     font-size: 1.1rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__desc {
     font-size: 1.1rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__icon {
     font-size: 3vw;
@@ -408,7 +402,7 @@
     border: 1px solid;
     font-size: 0.8rem;
     margin-top: 0.3rem;
-    padding: 0.2rem 0.35rem;
+    padding: .2rem .35rem;
     width: 90%;
   }
   body .ecc__text {
@@ -439,7 +433,7 @@
     height: 34em;
   }
   body .ecc {
-    gap: 0.2rem;
+    gap: .2rem;
   }
   body .ecc__card {
     height: 8rem;
@@ -447,7 +441,7 @@
   }
   body .ecc__heading {
     font-size: 0.8rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.2rem;
@@ -456,11 +450,11 @@
   }
   body .ecc__view {
     font-size: 0.7rem;
-    margin-top: 0.4rem;
+    margin-top: .4rem;
   }
   body .ecc__desc {
     font-size: 0.7rem;
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   body .ecc__icon {
     font-size: 1vw;
@@ -470,7 +464,7 @@
   body .ecc__btn {
     font-size: 0.5rem;
     margin-top: 0.2rem;
-    padding: 0.1rem 0.35rem;
+    padding: .1rem .35rem;
     width: 80%;
   }
   body .ecc__text {
