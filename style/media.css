@@ -216,9 +216,6 @@
   body .ecc__card:hover {
     width: 20rem;
   }
-  body .ecc__text span {
-    display: none;
-  }
 }
 
 @media (max-width: 320px) {
@@ -274,9 +271,6 @@
   }
   body .ecc__card:hover {
     width: 16rem;
-  }
-  body .ecc__text span {
-    display: none;
   }
 }
 /*# sourceMappingURL=media.css.map */

@@ -256,10 +256,6 @@ body {
         .ecc__card:hover {
             width: 20rem;
         }
-            
-        .ecc__text span {
-            display: none;
-        }
     }
 
     @media (max-width: 320px) {
@@ -327,10 +323,6 @@ body {
 
         .ecc__card:hover {
             width: 16rem;
-        }
-            
-        .ecc__text span {
-            display: none;
         }
     }
 }
