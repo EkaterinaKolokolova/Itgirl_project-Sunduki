@@ -25,6 +25,7 @@ body {
             &__main {
                 flex-direction: column;
                 padding: 30px;
+                gap: 15px;
             }
         }
     }
@@ -325,5 +326,11 @@ body {
             width: 16rem;
         }
     }
+    @media screen and (max-width: $tablet) {
+        .footer{
+            &__logo{
+                display: none;
+            }
+        }
+    }
 }
-

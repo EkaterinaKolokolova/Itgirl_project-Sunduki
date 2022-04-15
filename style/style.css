@@ -30,6 +30,16 @@ a:hover {
 }
 
 /*!--About Project*/
+.banner {
+  background-image: url(../assets/img/sunduki-main.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,6 +55,7 @@ a:hover {
 
 .about__head {
   font-family: Ardeco;
+  font-size: 48px;
 }
 
 .about__images {
@@ -54,6 +65,10 @@ a:hover {
 .about__title {
   padding: 4.1rem 3.3rem;
   text-align: center;
+}
+
+.about____text {
+  font-size: 20px;
 }
 
 a {
@@ -87,12 +102,13 @@ a {
 
 #top {
   position: fixed;
-  right: 10px;
+  right: 5px;
   top: 10px;
   border: 3px solid #4D4637;
   padding: 5px;
   border-radius: 0.5rem;
   font-family: 'Roboto', sans-serif;
+  z-index: 101;
 }
 
 .thekey {
@@ -167,8 +183,9 @@ a {
 
 #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
+  width: 35px;
+  height: 6px;
+  left: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -652,13 +669,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
   padding: 65px 30px;
 }
 
@@ -894,9 +910,23 @@ h1 {
 }
 
 /*footer*/
-footer {
+.footer {
   background-color: #C4C4C4;
   text-align: center;
+  position: relative;
+}
+
+.footer__logo {
+  background-image: url(../assets/img/logo.png);
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  width: 10rem;
+  height: 9rem;
+  right: 3rem;
+  bottom: 0.5rem;
+  -webkit-box-shadow: 0px 0px 5px 1px #000;
+          box-shadow: 0px 0px 5px 1px #000;
 }
 
 .social__list {
@@ -910,16 +940,19 @@ footer {
 }
 
 .social__img {
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   padding: 10px;
 }
 
-.logo {
-  position: absolute;
-  width: 10rem;
-  height: 9rem;
-  right: 3rem;
-  bottom: 0.5rem;
+.social__text {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.social__project {
+  font-size: 10px;
+  color: #747474;
+  padding: 5px;
 }
 /*# sourceMappingURL=style.css.map */

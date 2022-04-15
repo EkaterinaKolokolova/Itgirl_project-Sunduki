@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/normalize.css" />
-    <link rel="stylesheet" href="./style/media.css" />
+    <link rel="stylesheet" href="style/media.css" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="shortcut icon" href="assets/img/icon-logo.png" type="img/png" />
     <title>Сундуки Быньги</title>
@@ -29,11 +29,11 @@
           <a href="#_ecc">
             <p>Услуги</p>
           </a>
-          <a href="#_gallery">
-            <p>Фото</p>
-          </a>
           <a href="#_news">
             <p>Новости</p>
+          </a>
+          <a href="#_gallery">
+            <p>Фото</p>
           </a>
           <a href="#_events">
             <p>Афиша</p>
@@ -57,9 +57,9 @@
 
             <li><a href="#_ecc">Услуги</a></li>
 
-            <li><a href="#_gallery">Фото</a></li>
-
             <li><a href="#_news">Новости</a></li>
+
+            <li><a href="#_gallery">Фото</a></li>
 
             <li><a href="#_events">Афиша</a></li>
 
@@ -73,12 +73,9 @@
     <a href="#" id="top">Наверх</a>
     <main class="main">
       <!--About Project-->
+      <div class="banner"></div>
       <section class="about">
-        <img
-          class="about__images"
-          src="assets/img/sunduki-main.jpg"
-          alt="sunduki"
-        />
+        <!-- <img class="about__images" src="assets/img/sunduki-main.jpg" alt="sunduki" /> -->
         <div id="_project"></div>
         <div class="about__title">
           <h1 class="about__head">О проекте</h1>
@@ -627,7 +624,7 @@
       </section>
     </main>
     <!--footer-->
-    <footer>
+    <footer class="footer">
       <nav class="social">
         <ul class="social__list">
           <li>
@@ -661,9 +658,11 @@
           </li>
         </ul>
       </nav>
-      <img class="logo" src="assets/img/logo.png" alt="logo" />
+      <div class="footer__logo"></div>
+      <!-- <img class="logo" src="assets/img/logo.png" alt="logo" /> -->
       <div>
         <p class="social__text">© 2022 Sunduki. Быньги</p>
+        <p class="social__project">Сайт разработан командой ITGIRLSCHOOL</p>
       </div>
     </footer>
     <script

@@ -17,6 +17,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 30px;
+    gap: 15px;
   }
 }
 
@@ -271,6 +272,12 @@
   }
   body .ecc__card:hover {
     width: 16rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .footer__logo {
+    display: none;
   }
 }
 /*# sourceMappingURL=media.css.map */
