@@ -65,7 +65,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 30vh;
-    grid-template-areas: "logo-sunduki nav_menu";
+    grid-template-areas: "logo-sunduki nav-menu";
 }
 
 .logo-sunduki {
@@ -85,8 +85,8 @@ a {
 .thekey {
     position: relative;
     top: 20px;
-    left: 15px;
-    width: 20vw;
+    left: 5px;
+    width: 20rem;
 }
 
 #menuToggle {
@@ -173,6 +173,7 @@ a {
     padding: 50px;
     padding-top: 125px;
     list-style-type: none;
+    background: #ebdfc6;
     font-family: 'Freestyle Script', "Avenir", sans-serif;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -191,11 +192,10 @@ a {
     }
 }
 
-.nav {
-    &_menu {
+.nav-menu {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         color: #4d4637;
         font-family: 'Roboto';
@@ -204,7 +204,7 @@ a {
         line-height: 30px;
         text-align: center;
     }
-}
+
 
 
 /*Excursions, coliving, coworking*/
