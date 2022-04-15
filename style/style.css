@@ -102,12 +102,13 @@ a {
 
 #top {
   position: fixed;
-  right: 10px;
+  right: 5px;
   top: 10px;
   border: 3px solid #4D4637;
   padding: 5px;
   border-radius: 0.5rem;
   font-family: 'Roboto', sans-serif;
+  z-index: 101;
 }
 
 .thekey {
@@ -182,8 +183,9 @@ a {
 
 #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
+  width: 35px;
+  height: 6px;
+  left: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -670,13 +672,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
   padding: 65px 30px;
 }
 
