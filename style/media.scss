@@ -4,6 +4,152 @@ $big-tablet: 1025px;
 $desktop: 1280px;
 
 body {
+    @media (max-width: 1380px) {
+        .wrapper {
+            height: 16rem;
+        }
+    
+        .ecc__card {
+            height: 15rem;
+            width: 15rem;
+        }
+    
+        .ecc__flip-card {
+            height: 15rem;
+            width: 15rem;
+        }
+    
+        .ecc__top {
+            height: 12rem;
+            padding: 1.5rem 0.5rem;
+        }
+    
+        .ecc__img img {
+            min-height: 15rem;
+        }
+    
+        .ecc__inside-page {
+            padding: 0.2rem;
+            width: 15rem;
+        }
+    
+        .ecc__card:hover {
+            width: 30rem;
+        }
+        .ecc__text span {
+            display: none;
+        }
+
+        .ecc__icon {
+            font-size: 3vw;
+            height: 3.5rem;
+            width: 3.5rem;
+        }
+
+        .ecc__btn {
+            border: 1px solid;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 0.1rem;
+            padding: .1rem .15rem;
+            width: 80%;
+        }
+
+        .ecc__heading {
+            font-size: 1.7rem;
+            margin-top: .15rem;
+        }
+    
+        .ecc__inside-heading {
+            padding-bottom: 0.2rem;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: .1rem;
+        }
+
+        .ecc__desc {
+            font-size: 1.2rem;
+            margin-top: .1rem;
+        } 
+    }
+
+    @media (max-width: 1200px) {
+        .wrapper {
+            height: 42rem;
+        }
+        .ecc {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: .5rem;
+        
+            &__card {
+                height: 20rem;
+                width: 20rem;
+            }
+
+            &__heading {
+                font-size: 2rem;
+                margin-top: .4rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.8rem;
+                font-size: 2rem;
+                margin-top: .6rem;
+            }
+
+            &__view {
+                font-size: 1.8rem;
+                margin-top: .2rem;
+            }
+
+            &__desc {
+                font-size: 2rem;
+                margin-top: .5rem;
+            }
+
+            &__icon {
+                font-size: 5vw;
+                height: 5.5rem;
+                width: 5.5rem;
+            }
+
+            &__btn {
+                border: 2px solid;
+                font-size: 1.5rem;
+                margin-top: 0.4rem;
+                padding: .5rem .55rem;
+                width: 90%;
+            }
+
+            &__flip-card {
+                height: 20rem;
+                width: 20rem;
+            }
+
+            &__top {
+                height: 17rem;
+                padding: 3rem 2rem;
+            }
+
+            &__img img {
+                min-height: 20rem;
+            }
+
+            &__inside-page {
+                padding: 1rem;
+                width: 20rem;
+            }
+
+            &__card:hover {
+                width: 40rem;
+            }
+            &__text span {
+                display: inline;
+            }
+        }
+    }
+
     @media screen and (max-width: $big-tablet) {
         .news {
             margin: 0 30px;
@@ -25,6 +171,7 @@ body {
             &__main {
                 flex-direction: column;
                 padding: 30px;
+                gap: 15px;
             }
         }
     }
@@ -39,12 +186,486 @@ body {
         #navbar {
             display: none;
         }
+        .nav-menu {
+            display: flex;
+            flex-direction: column;
+            margin-left: 5rem;
+        }
+    }
 
+    @media (max-width: 970px) {
+        .wrapper {
+            height: 33rem;
+        }
+        .ecc {
+            gap: .4rem;
+        
+            &__card {
+                height: 15rem;
+                width: 15rem;
+            }
+
+            &__heading {
+                font-size: 1.7rem;
+                margin-top: .2rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.5rem;
+                font-size: 1.2rem;
+                margin-top: .2rem;
+            }
+
+            &__text {
+                font-size: 0.9rem
+            }
+
+            &__view {
+                font-size: 1.3rem;
+                margin-top: .1rem;
+            }
+
+            &__desc {
+                font-size: 1.5rem;
+                margin-top: .2rem;
+            }
+
+            &__icon {
+                font-size: 3vw;
+                height: 3.5rem;
+                width: 3.5rem;
+            }
+
+            &__btn {
+                border: 1px solid;
+                font-size: 1.2rem;
+                margin-top: 0.2rem;
+                padding: .2rem .35rem;
+                width: 80%;
+            }
+
+            &__flip-card {
+                height: 15rem;
+                width: 15rem;
+            }
+
+            &__top {
+                height: 13rem;
+                padding: 1.5rem 1rem;
+            }
+
+            &__img img {
+                min-height: 15rem;
+            }
+
+            &__inside-page {
+                padding: .3rem;
+                width: 15rem;
+            }
+
+            &__card:hover {
+                width: 30rem;
+            }
+        }
     }
 
     @media screen and (min-width:300px) and (max-width:766px) {
         .menu-logo {
             display: none;
+        }
+
+        .wrapper {
+            height: 26rem;
+        }
+
+        .ecc {
+            gap: .3rem;
+        
+            &__card {
+                height: 12rem;
+                width: 12rem;
+            }
+
+            &__heading {
+                font-size: 1.3rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.3rem;
+                font-size: 1rem;
+                margin-top: .2rem;
+            }
+
+            &__text {
+                font-size: 0.7rem
+            }
+
+            &__view {
+                font-size: 1rem;
+                margin-top: .1rem;
+            }
+
+            &__desc {
+                font-size: 1.3rem;
+                margin-top: .2rem;
+            }
+
+            &__icon {
+                font-size: 3vw;
+                height: 3.5rem;
+                width: 3.5rem;
+            }
+
+            &__btn {
+                font-size: 1.1rem;
+                margin-top: 0.2rem;
+                padding: .2rem .35rem;
+                width: 80%;
+            }
+
+            &__flip-card {
+                height: 12rem;
+                width: 12rem;
+            }
+
+            &__top {
+                height: 10rem;
+                padding: 1rem .5rem;
+            }
+
+            &__img img {
+                min-height: 12rem;
+            }
+
+            &__inside-page {
+                padding: .2rem;
+                width: 12rem;
+            }
+
+            &__card:hover {
+                width: 24rem;
+            }
+        }
+    }
+
+    @media (max-width: 580px) {
+        .wrapper {
+            height: 63rem;
+        }
+        .ecc {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: .3rem;
+        
+            &__card {
+                height: 15rem;
+                width: 15rem;
+            }
+
+            &__heading {
+                font-size: 1.5rem;
+                margin-top: .1rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.2rem;
+                font-size: 1.2rem;
+                margin-top: .1rem;
+            }
+
+            &__view {
+                font-size: 1.3rem;
+                margin-top: .1rem;
+            }
+
+            &__desc {
+                font-size: 1.3rem;
+                margin-top: .1rem;
+            }
+
+            &__icon {
+                font-size: 3vw;
+                height: 3.5rem;
+                width: 3.5rem;
+            }
+
+            &__btn {
+                border: 1px solid;
+                font-size: 1rem;
+                margin-top: 0.3rem;
+                padding: .2rem .35rem;
+                width: 90%;
+            }
+
+            &__text {
+                font-size: 0.8rem
+            }
+
+            &__flip-card {
+                height: 15rem;
+                width: 15rem;
+            }
+
+            &__top {
+                height: 12rem;
+                padding: 1.5rem 1rem;
+            }
+
+            &__img img {
+                min-height: 15rem;
+            }
+
+            &__inside-page {
+                padding: 0.5rem;
+                width: 15rem;
+            }
+
+            &__card:hover {
+                width: 30rem;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .wrapper {
+            height: 50rem;
+        }
+        .ecc {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: .2rem;
+        
+            &__card {
+                height: 12rem;
+                width: 12rem;
+            }
+
+            &__heading {
+                font-size: 1.2rem;
+                margin-top: .1rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.2rem;
+                font-size: 1rem;
+                margin-top: .1rem;
+            }
+
+            &__view {
+                font-size: 1.1rem;
+                margin-top: .1rem;
+            }
+
+            &__desc {
+                font-size: 1.1rem;
+                margin-top: .1rem;
+            }
+
+            &__icon {
+                font-size: 3vw;
+                height: 3.5rem;
+                width: 3.5rem;
+            }
+
+            &__btn {
+                border: 1px solid;
+                font-size: 0.8rem;
+                margin-top: 0.3rem;
+                padding: .2rem .35rem;
+                width: 90%;
+            }
+
+            &__text {
+                font-size: 0.6rem
+            }
+
+            &__flip-card {
+                height: 12rem;
+                width: 12rem;
+            }
+
+            &__top {
+                height: 10rem;
+                padding: 1.3rem 1rem;
+            }
+
+            &__img img {
+                min-height: 12rem;
+            }
+
+            &__inside-page {
+                padding: 0.5rem;
+                width: 12rem;
+            }
+
+            &__card:hover {
+                width: 24rem;
+            }
+        }
+    }
+
+    @media (max-width: 390px) {
+        .wrapper {
+            height: 43rem;
+        }
+        .ecc {
+            gap: .3rem;
+        
+            &__card {
+                height: 10rem;
+                width: 10rem;
+            }
+
+            &__heading {
+                font-size: 1rem;
+                margin-top: .2rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.3rem;
+                font-size: 1rem;
+                margin-top: 0.5rem;
+            }
+
+            &__view {
+                font-size: 1rem;
+                margin-top: .4rem;
+            }
+
+            &__desc {
+                font-size: 1rem;
+                margin-top: .2rem;
+            }
+
+            &__icon {
+                font-size: 2vw;
+                height: 3rem;
+                width: 3rem;
+            }
+
+            &__btn {
+                font-size: 0.5rem;
+                margin-top: 0.2rem;
+                padding: .2rem .35rem;
+                width: 80%;
+            }
+
+            &__text {
+                font-size: 0.6rem
+            }
+
+            &__flip-card {
+                height: 10rem;
+                width: 10rem;
+            }
+
+            &__top {
+                height: 8rem;
+                padding: 1rem 0.3rem;
+            }
+
+            &__img img {
+                min-height: 10rem;
+            }
+
+            &__inside-page {
+                padding: 0.3rem;
+                width: 10rem;
+            }
+
+            &__card:hover {
+                width: 20rem;
+            }
+            
+            &__text span {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 290px) {
+        .wrapper {
+            height: 34rem;
+        }
+        .ecc {
+            gap: .2rem;
+        
+            &__card {
+                height: 8rem;
+                width: 8rem;
+            }
+
+            &__heading {
+                font-size: 0.8rem;
+                margin-top: .1rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.2rem;
+                font-size: 0.7rem;
+                margin-top: 0.3rem;
+            }
+
+            &__view {
+                font-size: 0.7rem;
+                margin-top: .4rem;
+            }
+
+            &__desc {
+                font-size: 0.7rem;
+                margin-top: .1rem;
+            }
+
+            &__icon {
+                font-size: 1vw;
+                height: 2rem;
+                width: 2rem;
+            }
+
+            &__btn {
+                font-size: 0.5rem;
+                margin-top: 0.2rem;
+                padding: .1rem .35rem;
+                width: 80%;
+            }
+
+            &__text {
+                font-size: 0.5rem
+            }
+
+            &__flip-card {
+                height: 8rem;
+                width: 8rem;
+            }
+
+            &__top {
+                height: 6rem;
+                padding: 0.8rem 0.3rem;
+            }
+
+            &__img img {
+                min-height: 8rem;
+            }
+
+            &__inside-page {
+                padding: 0.3rem;
+                width: 8rem;
+            }
+
+            &__card:hover {
+                width: 16rem;
+            }
+            
+            &__text span {
+                display: none;
+            }
+        }
+    }
+    @media screen and (max-width: $tablet) {
+        .footer{
+            &__logo{
+                display: none;
+            }
         }
     }
 }
