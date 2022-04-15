@@ -69,7 +69,7 @@ a {
       grid-template-columns: 1fr 3fr;
   -ms-grid-rows: 30vh;
       grid-template-rows: 30vh;
-      grid-template-areas: "logo-sunduki nav_menu";
+      grid-template-areas: "logo-sunduki nav-menu";
 }
 
 .logo-sunduki {
@@ -91,8 +91,8 @@ a {
 .thekey {
   position: relative;
   top: 20px;
-  left: 15px;
-  width: 20vw;
+  left: 5px;
+  width: 20rem;
 }
 
 #menuToggle {
@@ -190,6 +190,7 @@ a {
   padding: 50px;
   padding-top: 125px;
   list-style-type: none;
+  background: #ebdfc6;
   font-family: 'Freestyle Script', "Avenir", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -213,14 +214,15 @@ a {
   font-size: 22px;
 }
 
-.nav_menu {
+.nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -801,7 +803,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-grid-columns: (25rem)[auto-fit];
+  -ms-grid-columns: (25rem) [auto-fit];
       grid-template-columns: repeat(auto-fit, 25rem);
   gap: 3rem;
 }
