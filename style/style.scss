@@ -193,17 +193,17 @@ a {
 }
 
 .nav-menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        color: #4d4637;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: center;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #4d4637;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
 
 
 
@@ -648,14 +648,14 @@ h1 {
     width: 33.3%;
     min-width: 400px;
     transition: transform 0.5s
-
-
 }
+
 .events-boxes:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.1);
 }
+
 .events-box-data {
     min-width: 100px;
 
