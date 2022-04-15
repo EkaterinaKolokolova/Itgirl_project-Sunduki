@@ -412,6 +412,7 @@ a {
         transform-style: preserve-3d;
         transition: all 1s ease;
         width: 100%;
+        transform: rotateY(-180deg);
     }
 
     &__card-front,
@@ -511,9 +512,6 @@ a {
         box-shadow:
             -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
         width: 34rem;
-    }
-
-    &__card:hover .ecc__container {
         transform: rotateY(-180deg);
     }
 
