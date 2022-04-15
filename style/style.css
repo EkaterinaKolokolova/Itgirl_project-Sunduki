@@ -69,13 +69,20 @@ a {
       grid-template-columns: 1fr 3fr;
   -ms-grid-rows: 30vh;
       grid-template-rows: 30vh;
-      grid-template-areas: "logo-sunduki nav-menu";
+      grid-template-areas: "logo-sunduki" "nav-menu";
 }
 
 .logo-sunduki {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo-sunduki;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 
 #top {
@@ -93,6 +100,8 @@ a {
   top: 20px;
   left: 5px;
   width: 20rem;
+  -webkit-box-shadow: 0px 0px 5px 1px #000;
+          box-shadow: 0px 0px 5px 1px #000;
 }
 
 #menuToggle {
@@ -160,7 +169,8 @@ a {
   display: block;
   width: 33px;
   height: 4px;
-  margin-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   position: relative;
   background: #cdcdcd;
   z-index: 1;
@@ -191,14 +201,14 @@ a {
   padding-top: 125px;
   list-style-type: none;
   background: #ebdfc6;
-  font-family: 'Freestyle Script', "Avenir", sans-serif;
+  font-family: "Ardeco", sans-serif, "Avenir", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 1rem;
   line-height: 42px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   -webkit-transform: translate(-100%, 0);
@@ -227,11 +237,19 @@ a {
       -ms-flex-align: center;
           align-items: center;
   color: #4d4637;
-  font-family: 'Roboto';
+  font-family: "Ardeco", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 30px;
   text-align: center;
+  margin-right: 5rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav-menu;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
 }
 
 /*Excursions, coliving, coworking*/
