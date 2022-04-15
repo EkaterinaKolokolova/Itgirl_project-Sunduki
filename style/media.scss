@@ -349,7 +349,7 @@ body {
 
     @media (max-width: 580px) {
         .wrapper {
-            height: 63em;
+            height: 63rem;
         }
         .ecc {
             display: grid;
@@ -427,7 +427,7 @@ body {
 
     @media (max-width: 480px) {
         .wrapper {
-            height: 50em;
+            height: 50rem;
         }
         .ecc {
             display: grid;
@@ -505,7 +505,86 @@ body {
 
     @media (max-width: 390px) {
         .wrapper {
-            height: 34em;
+            height: 43rem;
+        }
+        .ecc {
+            gap: .3rem;
+        
+            &__card {
+                height: 10rem;
+                width: 10rem;
+            }
+
+            &__heading {
+                font-size: 1rem;
+                margin-top: .2rem;
+            }
+
+            &__inside-heading {
+                padding-bottom: 0.3rem;
+                font-size: 1rem;
+                margin-top: 0.5rem;
+            }
+
+            &__view {
+                font-size: 1rem;
+                margin-top: .4rem;
+            }
+
+            &__desc {
+                font-size: 1rem;
+                margin-top: .2rem;
+            }
+
+            &__icon {
+                font-size: 2vw;
+                height: 3rem;
+                width: 3rem;
+            }
+
+            &__btn {
+                font-size: 0.5rem;
+                margin-top: 0.2rem;
+                padding: .2rem .35rem;
+                width: 80%;
+            }
+
+            &__text {
+                font-size: 0.6rem
+            }
+
+            &__flip-card {
+                height: 10rem;
+                width: 10rem;
+            }
+
+            &__top {
+                height: 8rem;
+                padding: 1rem 0.3rem;
+            }
+
+            &__img img {
+                min-height: 10rem;
+            }
+
+            &__inside-page {
+                padding: 0.3rem;
+                width: 10rem;
+            }
+
+            &__card:hover {
+                width: 20rem;
+            }
+            
+            &__text span {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 290px) {
+        .wrapper {
+            height: 34rem;
         }
         .ecc {
             gap: .2rem;

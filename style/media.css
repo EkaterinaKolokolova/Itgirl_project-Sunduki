@@ -296,7 +296,7 @@
 
 @media (max-width: 580px) {
   body .wrapper {
-    height: 63em;
+    height: 63rem;
   }
   body .ecc {
     display: -ms-grid;
@@ -363,7 +363,7 @@
 
 @media (max-width: 480px) {
   body .wrapper {
-    height: 50em;
+    height: 50rem;
   }
   body .ecc {
     display: -ms-grid;
@@ -430,7 +430,72 @@
 
 @media (max-width: 390px) {
   body .wrapper {
-    height: 34em;
+    height: 43rem;
+  }
+  body .ecc {
+    gap: .3rem;
+  }
+  body .ecc__card {
+    height: 10rem;
+    width: 10rem;
+  }
+  body .ecc__heading {
+    font-size: 1rem;
+    margin-top: .2rem;
+  }
+  body .ecc__inside-heading {
+    padding-bottom: 0.3rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  body .ecc__view {
+    font-size: 1rem;
+    margin-top: .4rem;
+  }
+  body .ecc__desc {
+    font-size: 1rem;
+    margin-top: .2rem;
+  }
+  body .ecc__icon {
+    font-size: 2vw;
+    height: 3rem;
+    width: 3rem;
+  }
+  body .ecc__btn {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+    padding: .2rem .35rem;
+    width: 80%;
+  }
+  body .ecc__text {
+    font-size: 0.6rem;
+  }
+  body .ecc__flip-card {
+    height: 10rem;
+    width: 10rem;
+  }
+  body .ecc__top {
+    height: 8rem;
+    padding: 1rem 0.3rem;
+  }
+  body .ecc__img img {
+    min-height: 10rem;
+  }
+  body .ecc__inside-page {
+    padding: 0.3rem;
+    width: 10rem;
+  }
+  body .ecc__card:hover {
+    width: 20rem;
+  }
+  body .ecc__text span {
+    display: none;
+  }
+}
+
+@media (max-width: 290px) {
+  body .wrapper {
+    height: 34rem;
   }
   body .ecc {
     gap: .2rem;
