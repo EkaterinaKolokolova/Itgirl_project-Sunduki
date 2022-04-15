@@ -553,8 +553,8 @@ a {
 
 .ecc__card-back {
   background-color: #fafbfa;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  -webkit-transform: rotateY(179.9deg);
+          transform: rotateY(179.9deg);
   height: 100%;
 }
 
@@ -614,8 +614,8 @@ a {
 }
 
 .ecc__card:hover .ecc__container {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-179.9deg);
+          transform: rotateY(-179.9deg);
 }
 
 .ecc__card:hover .ecc__inside-page {
