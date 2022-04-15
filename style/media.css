@@ -1,128 +1,3 @@
-@media (max-width: 1380px) {
-  body .wrapper {
-    height: 16rem;
-  }
-  body .ecc__card {
-    height: 15rem;
-    width: 15rem;
-  }
-  body .ecc__flip-card {
-    height: 15rem;
-    width: 15rem;
-  }
-  body .ecc__top {
-    height: 12rem;
-    padding: 1.5rem 0.5rem;
-  }
-  body .ecc__img img {
-    min-height: 15rem;
-  }
-  body .ecc__inside-page {
-    padding: 0.2rem;
-    width: 15rem;
-  }
-  body .ecc__card:hover {
-    width: 30rem;
-  }
-  body .ecc__text span {
-    display: none;
-  }
-  body .ecc__icon {
-    font-size: 3vw;
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-  body .ecc__btn {
-    border: 1px solid;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-top: 0.1rem;
-    padding: .1rem .15rem;
-    width: 80%;
-  }
-  body .ecc__heading {
-    font-size: 1.7rem;
-    margin-top: .15rem;
-  }
-  body .ecc__inside-heading {
-    padding-bottom: 0.2rem;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-top: .1rem;
-  }
-  body .ecc__desc {
-    font-size: 1.2rem;
-    margin-top: .1rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  body .wrapper {
-    height: 42rem;
-  }
-  body .ecc {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    gap: .5rem;
-  }
-  body .ecc__card {
-    height: 20rem;
-    width: 20rem;
-  }
-  body .ecc__heading {
-    font-size: 2rem;
-    margin-top: .4rem;
-  }
-  body .ecc__inside-heading {
-    padding-bottom: 0.8rem;
-    font-size: 2rem;
-    margin-top: .6rem;
-  }
-  body .ecc__view {
-    font-size: 1.8rem;
-    margin-top: .2rem;
-  }
-  body .ecc__desc {
-    font-size: 2rem;
-    margin-top: .5rem;
-  }
-  body .ecc__icon {
-    font-size: 5vw;
-    height: 5.5rem;
-    width: 5.5rem;
-  }
-  body .ecc__btn {
-    border: 2px solid;
-    font-size: 1.5rem;
-    margin-top: 0.4rem;
-    padding: .5rem .55rem;
-    width: 90%;
-  }
-  body .ecc__flip-card {
-    height: 20rem;
-    width: 20rem;
-  }
-  body .ecc__top {
-    height: 17rem;
-    padding: 3rem 2rem;
-  }
-  body .ecc__img img {
-    min-height: 20rem;
-  }
-  body .ecc__inside-page {
-    padding: 1rem;
-    width: 20rem;
-  }
-  body .ecc__card:hover {
-    width: 40rem;
-  }
-  body .ecc__text span {
-    display: inline;
-  }
-}
-
 @media screen and (max-width: 1025px) {
   body .news {
     margin: 0 30px;
@@ -167,144 +42,13 @@
   }
 }
 
-@media (max-width: 970px) {
-  body .wrapper {
-    height: 33rem;
-  }
-  body .ecc {
-    gap: .4rem;
-  }
-  body .ecc__card {
-    height: 15rem;
-    width: 15rem;
-  }
-  body .ecc__heading {
-    font-size: 1.7rem;
-    margin-top: .2rem;
-  }
-  body .ecc__inside-heading {
-    padding-bottom: 0.5rem;
-    font-size: 1.2rem;
-    margin-top: .2rem;
-  }
-  body .ecc__text {
-    font-size: 0.9rem;
-  }
-  body .ecc__view {
-    font-size: 1.3rem;
-    margin-top: .1rem;
-  }
-  body .ecc__desc {
-    font-size: 1.5rem;
-    margin-top: .2rem;
-  }
-  body .ecc__icon {
-    font-size: 3vw;
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-  body .ecc__btn {
-    border: 1px solid;
-    font-size: 1.2rem;
-    margin-top: 0.2rem;
-    padding: .2rem .35rem;
-    width: 80%;
-  }
-  body .ecc__flip-card {
-    height: 15rem;
-    width: 15rem;
-  }
-  body .ecc__top {
-    height: 13rem;
-    padding: 1.5rem 1rem;
-  }
-  body .ecc__img img {
-    min-height: 15rem;
-  }
-  body .ecc__inside-page {
-    padding: .3rem;
-    width: 15rem;
-  }
-  body .ecc__card:hover {
-    width: 30rem;
-  }
-}
-
 @media screen and (min-width: 300px) and (max-width: 766px) {
   body .menu-logo {
     display: none;
   }
-  body .wrapper {
-    height: 26rem;
-  }
-  body .ecc {
-    gap: .3rem;
-  }
-  body .ecc__card {
-    height: 12rem;
-    width: 12rem;
-  }
-  body .ecc__heading {
-    font-size: 1.3rem;
-  }
-  body .ecc__inside-heading {
-    padding-bottom: 0.3rem;
-    font-size: 1rem;
-    margin-top: .2rem;
-  }
-  body .ecc__text {
-    font-size: 0.7rem;
-  }
-  body .ecc__view {
-    font-size: 1rem;
-    margin-top: .1rem;
-  }
-  body .ecc__desc {
-    font-size: 1.3rem;
-    margin-top: .2rem;
-  }
-  body .ecc__icon {
-    font-size: 3vw;
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-  body .ecc__btn {
-    font-size: 1.1rem;
-    margin-top: 0.2rem;
-    padding: .2rem .35rem;
-    width: 80%;
-  }
-  body .ecc__flip-card {
-    height: 12rem;
-    width: 12rem;
-  }
-  body .ecc__top {
-    height: 10rem;
-    padding: 1rem .5rem;
-  }
-  body .ecc__img img {
-    min-height: 12rem;
-  }
-  body .ecc__inside-page {
-    padding: .2rem;
-    width: 12rem;
-  }
-  body .ecc__card:hover {
-    width: 24rem;
-  }
 }
 
-@media (max-width: 580px) {
-  body .wrapper {
-    height: 63rem;
-  }
-  body .ecc {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    gap: .3rem;
-  }
+@media screen and (max-width: 550px) {
   body .ecc__card {
     height: 15rem;
     width: 15rem;
@@ -362,16 +106,6 @@
 }
 
 @media (max-width: 480px) {
-  body .wrapper {
-    height: 50rem;
-  }
-  body .ecc {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    gap: .2rem;
-  }
   body .ecc__card {
     height: 12rem;
     width: 12rem;
@@ -429,12 +163,6 @@
 }
 
 @media (max-width: 390px) {
-  body .wrapper {
-    height: 43rem;
-  }
-  body .ecc {
-    gap: .3rem;
-  }
   body .ecc__card {
     height: 10rem;
     width: 10rem;
@@ -493,13 +221,7 @@
   }
 }
 
-@media (max-width: 290px) {
-  body .wrapper {
-    height: 34rem;
-  }
-  body .ecc {
-    gap: .2rem;
-  }
+@media (max-width: 320px) {
   body .ecc__card {
     height: 8rem;
     width: 8rem;
