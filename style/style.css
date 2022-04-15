@@ -299,10 +299,10 @@ a {
 }
 
 .ecc__inside-heading {
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.4rem;
   width: 100%;
   font-family: "Ardeco", sans-serif, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-top: .3rem;
 }
@@ -576,7 +576,7 @@ a {
 .ecc__card:hover {
   -webkit-box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
           box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
-  width: 30rem;
+  width: 34rem;
 }
 
 .ecc__card:hover .ecc__container {

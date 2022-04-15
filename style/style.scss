@@ -253,10 +253,10 @@ a {
     }
 
     &__inside-heading {
-        padding-bottom: 0.7rem;
+        padding-bottom: 0.4rem;
         width: 100%;
         font-family: $title-font, sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 700;
         margin-top: .3rem;
     }
@@ -500,7 +500,7 @@ a {
     &__card:hover {
         box-shadow:
             -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
-        width: 30rem;
+        width: 34rem;
     }
 
     &__card:hover .ecc__container {
