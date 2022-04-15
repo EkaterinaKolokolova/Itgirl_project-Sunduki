@@ -65,7 +65,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 30vh;
-    grid-template-areas: "logo-sunduki""nav-menu";
+    grid-template-areas: "logo-sunduki" "nav-menu";
 }
 
 .logo-sunduki {
@@ -608,7 +608,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .div-events {
@@ -640,7 +640,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 
 
 }
@@ -661,7 +661,7 @@ h1 {
 .events-boxes {
     padding-bottom: 100px;
     width: 33.3%;
-    min-width: 400px;
+    min-width: 25rem;
     transition: transform 0.5s
 }
 
