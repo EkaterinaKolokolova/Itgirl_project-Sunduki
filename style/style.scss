@@ -21,7 +21,7 @@ $black: #000;
 
 body {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: $main-font, sans-serif;
     position: relative;
 }
 
@@ -65,18 +65,21 @@ a {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 30vh;
-    grid-template-areas: "logo-sunduki nav_menu";
+    grid-template-areas: "logo-sunduki" "nav-menu";
 }
 
 .logo-sunduki {
     display: flex;
+    grid-area: logo-sunduki;
+    grid-row: 1;
+    grid-column: 1;
 }
 
 #top {
     position: fixed;
     right: 10px;
     top: 10px;
-    border: 3px solid #4d4637;
+    border: 3px solid #4D4637;
     padding: 5px;
     border-radius: 0.5rem;
     font-family: 'Roboto', sans-serif;
@@ -85,8 +88,9 @@ a {
 .thekey {
     position: relative;
     top: 20px;
-    left: 15px;
-    width: 20vw;
+    left: 5px;
+    width: 20rem;
+    box-shadow: 0px 0px 5px 1px #000;
 }
 
 #menuToggle {
@@ -146,9 +150,10 @@ a {
         display: block;
         width: 33px;
         height: 4px;
-        margin-bottom: 5px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         position: relative;
-        background: #cdcdcd;
+        background: #CDCDCD;
         z-index: 1;
         transform-origin: 4px 0px;
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
@@ -173,13 +178,14 @@ a {
     padding: 50px;
     padding-top: 125px;
     list-style-type: none;
-    font-family: 'Freestyle Script', "Avenir", sans-serif;
+    background: #EBDFC6;
+    font-family: $title-font, "Avenir", sans-serif;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 1rem;
     line-height: 42px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: translate(-100%, 0);
@@ -191,20 +197,23 @@ a {
     }
 }
 
-.nav {
-    &_menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        color: #4d4637;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: center;
-    }
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #4D4637;
+    font-family: $title-font;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5rem;
+    grid-area: nav-menu;
+    grid-row: 1;
+    grid-column: 2;
 }
+
 
 
 /*Excursions, coliving, coworking*/
@@ -216,8 +225,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    /*height: 100vh;*/
+    width: 100vw;
+    height: 19rem;
 }
 
 .ecc {
@@ -239,27 +248,33 @@ a {
     &__card {
         background-color: rgba(0, 0, 0, .05);
         box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
-        height: 15rem;
+        height: 17rem;
         position: relative;
         transition: all 1s ease;
-        width: 15rem;
+        width: 17rem;
     }
 
     &__heading {
-        font-size: 1.5rem;
+        font-family: $title-font, sans-serif;
+        font-size: 2rem;
         margin-top: .25rem;
+        text-align: center;
     }
 
     &__inside-heading {
-        padding-bottom: 1rem;
+        padding-bottom: 0.4rem;
         width: 100%;
+        font-family: $title-font, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: .3rem;
     }
 
-    &__inside-heading,
     &__view {
-        font-size: 1.3rem;
-        font-weight: 800;
-        margin-top: .2rem;
+        font-family: $title-font, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: .3rem;
     }
 
     &__inside-heading_exc,
@@ -282,14 +297,11 @@ a {
         color: #b3aa99;
     }
 
-
-    &__top {
-        color: #fafbfa;
-    }
-
     &__desc {
-        font-size: 0.95rem;
+        font-family: $title-font, sans-serif;
+        font-size: 1.5rem;
         margin-top: .2rem;
+        text-align: center;
     }
 
     &__text {
@@ -298,26 +310,27 @@ a {
 
     &__icon {
         fill: #fafbfa;
-        font-size: 3vw;
-        height: 3.5rem;
+        font-size: 4vw;
+        height: 4.5rem;
         margin-top: -.5rem;
-        width: 3.5rem;
+        width: 4.5rem;
     }
 
     &__btn {
         background-color: transparent;
-        border: 3px solid;
+        border: 2px solid;
         border-radius: .5rem;
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: 700;
         margin-top: 0.3rem;
         overflow: hidden;
-        padding: .7rem .75rem;
+        padding: .2rem .35rem;
         position: relative;
         text-decoration: none;
         transition: all .3s ease;
         width: 90%;
         z-index: 10;
+
     }
 
     &__btn::before {
@@ -377,13 +390,13 @@ a {
     }
 
     &__flip-card {
-        height: 15rem;
+        height: 17rem;
         perspective: 100rem;
         position: absolute;
         right: 0;
         transition: all 1s ease;
         visibility: hidden;
-        width: 15rem;
+        width: 17rem;
         z-index: 100;
     }
 
@@ -409,12 +422,7 @@ a {
         position: absolute;
         top: 0;
         width: 100%;
-    }
-
-    &__card-front {
         background-color: #fafbfa;
-        height: 15rem;
-        width: 15rem;
     }
 
     &__top {
@@ -422,9 +430,10 @@ a {
         clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
         display: flex;
         flex-direction: column;
-        height: 12rem;
-        justify-content: center;
-        padding: .75rem;
+        height: 14rem;
+        justify-content: space-around;
+        padding: 2rem 1rem;
+        color: #fafbfa;
     }
 
     &__top_exc {
@@ -460,12 +469,13 @@ a {
     &__card-back {
         background-color: #fafbfa;
         transform: rotateY(180deg);
+        height: 100%;
     }
 
     &__img img {
         clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
         height: auto;
-        min-height: 100%;
+        min-height: 17rem;
         object-fit: cover;
         width: 100%;
         object-position: center;
@@ -475,16 +485,17 @@ a {
         background-color: #fafbfa;
         box-shadow: inset 20rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.25);
         height: 100%;
-        padding: 1rem;
+        padding: 0.5rem;
         position: absolute;
         right: 0;
         transition: all 1s ease;
-        width: 15rem;
+        width: 17rem;
         z-index: 1;
     }
 
     &__inside-container {
         align-items: center;
+        justify-content: space-around;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -492,10 +503,14 @@ a {
         width: 100%;
     }
 
+    &__inside-container a {
+        text-decoration: none;
+    }
+
     &__card:hover {
         box-shadow:
             -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
-        width: 30rem;
+        width: 34rem;
     }
 
     &__card:hover .ecc__container {
@@ -593,7 +608,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .div-events {
@@ -613,6 +628,7 @@ h1 {
     font-family: Ardeco, serif;
 }
 
+
 #events-section-title {
     margin: 5px 0px 45px;
 
@@ -624,7 +640,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 
 
 }
@@ -632,10 +648,10 @@ h1 {
 .events-box {
     display: flex;
     min-height: 130px;
-    border-right: 2px solid;
+    border-right: 1px solid;
     border-color: #2f2815;
 
-    border-top: 2px solid;
+    border-top: 1px solid;
     align-items: stretch;
     margin-left: 50px;
 
@@ -645,9 +661,14 @@ h1 {
 .events-boxes {
     padding-bottom: 100px;
     width: 33.3%;
-    min-width: 400px;
+    min-width: 25rem;
+    transition: transform 0.5s
+}
 
-
+.events-boxes:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .events-box-data {
@@ -673,7 +694,7 @@ h1 {
 
 .events-box-events-text {
     margin: 10px;
-    font-weight: bolder;
+    font-weight: normal;
     font-size: 1.3rem;
 }
 
