@@ -16,64 +16,24 @@
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Roboto", sans-serif, sans-serif;
+  font-family: "Roboto", sans-serif;
   position: relative;
+  color: #4d4637;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #4d4637;
 }
 
-a:hover {
+a::hover {
   text-decoration: underline;
 }
 
-/*!--About Project*/
-.banner {
-  background-image: url(../assets/img/sunduki-main.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.about__head {
-  font-family: Ardeco;
-  font-size: 48px;
-}
-
-.about__images {
-  width: 100%;
-}
-
-.about__title {
-  padding: 4.1rem 3.3rem;
-  text-align: center;
-}
-
-.about____text {
-  font-size: 20px;
-}
-
-a {
+h1 {
+  font-size: 3rem;
   color: #4d4637;
-  text-decoration: none;
+  font-family: "Ardeco", sans-serif;
 }
 
 /*Header*/
@@ -98,6 +58,34 @@ a {
   grid-row: 1;
   -ms-grid-column: 1;
   grid-column: 1;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4D4637;
+  font-family: "Ardeco", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 5rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav-menu;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
 }
 
 #top {
@@ -242,32 +230,46 @@ a {
   font-size: 2rem;
 }
 
-.nav-menu {
+/*!--About Project*/
+.banner {
+  background-image: url(../assets/img/sunduki-main.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #4D4637;
-  font-family: "Ardeco", sans-serif;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 30px;
+}
+
+.about__head {
+  font-family: Ardeco;
+  font-size: 48px;
+}
+
+.about__images {
+  width: 100%;
+}
+
+.about__title {
+  padding: 1.1rem 3.3rem 4.1rem 3.3rem;
   text-align: center;
-  margin-right: 5rem;
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: nav-menu;
-  -ms-grid-row: 1;
-  grid-row: 1;
-  -ms-grid-column: 2;
-  grid-column: 2;
+}
+
+.about__text {
+  font-size: 1.3rem;
 }
 
 /*Excursions, coliving, coworking*/
@@ -719,13 +721,12 @@ a {
 
 .news__title {
   font-family: "Ardeco", sans-serif;
-  font-size: 3rem;
   text-align: center;
   margin: 40px;
 }
 
 .news-container:last-child {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #4d4637;
 }
 
 .news-block__header {
@@ -738,8 +739,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #4d4637;
+  border-bottom: 1px solid #4d4637;
 }
 
 .news-block__title {
@@ -754,6 +755,10 @@ a {
   font-size: 1.25rem;
 }
 
+.news-block__date_info {
+  font-family: "Roboto", sans-serif;
+}
+
 .news-block__main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -761,10 +766,11 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  gap: 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 65px 30px;
+  padding: 50px 30px;
 }
 
 .news-block__img {
@@ -777,7 +783,7 @@ a {
 }
 
 .news-block__img_news1 {
-  background-image: url(../assets/img/grandma.jpg);
+  background-image: url(../assets/img/church-2.jpg);
   background-position: center;
 }
 
@@ -796,8 +802,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.25rem;
-  text-align: center;
+  text-align: justify;
+  font-size: 1.3rem;
   max-width: 700px;
   margin: 0;
 }
@@ -833,12 +839,6 @@ a {
   margin-right: 70px;
   margin-top: 40px;
   font-family: Roboto;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #2f2815;
-  font-family: Ardeco, serif;
 }
 
 #events-section-title {
