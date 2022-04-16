@@ -53,31 +53,95 @@ body {
         }
     }
 
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 650px) {
+        .ecc__card {
+            height: 17rem;
+            width: 17rem;
+        }
+
+        .ecc__heading {
+            font-size: 2rem;
+            margin-top: .1rem;
+        }
+
+        .ecc__inside-heading {
+            padding-bottom: 0.2rem;
+            font-size: 1.5rem;
+            margin-top: .1rem;
+        }
+
+        .ecc__view {
+            font-size: 1.5rem;
+            margin-top: .1rem;
+        }
+
+        .ecc__desc {
+            font-size: 1.5rem;
+            margin-top: .1rem;
+        }
+
+        .ecc__icon {
+            font-size: 4vw;
+            height: 4.5rem;
+            width: 4.5rem;
+        }
+
+        .ecc__btn {
+            border: 1px solid;
+            font-size: 1.2rem;
+            margin-top: 0.3rem;
+            padding: .2rem .35rem;
+            width: 90%;
+        }
+
+        .ecc__text {
+            font-size: 1rem
+        }
+
+        .ecc__flip-card {
+            height: 17rem;
+            width: 17rem;
+        }
+
+        .ecc__top {
+            height: 14rem;
+            padding: 1rem 1rem 1.5rem 1rem;
+        }
+
+        .ecc__img img {
+            min-height: 17rem;
+        }
+
+        .ecc__inside-page {
+            padding: 0.5rem;
+            width: 17rem;
+        }
+
+        .ecc__card:hover {
+            width: 34rem;
+        }
+    }
+
+    @media (max-width: 550px) {
         .ecc__card {
             height: 15rem;
             width: 15rem;
         }
 
         .ecc__heading {
-            font-size: 1.5rem;
-            margin-top: .1rem;
+            font-size: 1.6rem;
         }
 
         .ecc__inside-heading {
-            padding-bottom: 0.2rem;
-            font-size: 1.2rem;
-            margin-top: .1rem;
+            font-size: 1.3rem;
         }
 
         .ecc__view {
-            font-size: 1.3rem;
-            margin-top: .1rem;
+            font-size: 1.4rem;
         }
 
         .ecc__desc {
             font-size: 1.3rem;
-            margin-top: .1rem;
         }
 
         .ecc__icon {
@@ -87,15 +151,11 @@ body {
         }
 
         .ecc__btn {
-            border: 1px solid;
             font-size: 1rem;
-            margin-top: 0.3rem;
-            padding: .2rem .35rem;
-            width: 90%;
         }
 
         .ecc__text {
-            font-size: 0.8rem
+            font-size: 0.85rem
         }
 
         .ecc__flip-card {
@@ -105,7 +165,7 @@ body {
 
         .ecc__top {
             height: 12rem;
-            padding: 1.5rem 1rem;
+            padding: 1.3rem 1rem;
         }
 
         .ecc__img img {
@@ -113,7 +173,6 @@ body {
         }
 
         .ecc__inside-page {
-            padding: 0.5rem;
             width: 15rem;
         }
 
@@ -121,211 +180,171 @@ body {
             width: 30rem;
         }
     }
-
-    @media (max-width: 480px) {
+    
+    
+    @media (max-width: 470px) {
         .ecc__card {
-            height: 12rem;
-            width: 12rem;
-        }
-
-        .ecc__heading {
-            font-size: 1.2rem;
-            margin-top: .1rem;
+            height: 13rem;
+            width: 13rem;
         }
 
         .ecc__inside-heading {
-            padding-bottom: 0.2rem;
-            font-size: 1rem;
-            margin-top: .1rem;
-        }
-
-        .ecc__view {
-            font-size: 1.1rem;
-            margin-top: .1rem;
-        }
-
-        .ecc__desc {
-            font-size: 1.1rem;
-            margin-top: .1rem;
-        }
-
-        .ecc__icon {
-            font-size: 3vw;
-            height: 3.5rem;
-            width: 3.5rem;
+            font-size: 1.2rem;
         }
 
         .ecc__btn {
-            border: 1px solid;
-            font-size: 0.8rem;
-            margin-top: 0.3rem;
-            padding: .2rem .35rem;
-            width: 90%;
+            padding: .1rem .35rem;
+            font-size: 1rem;
         }
 
         .ecc__text {
-            font-size: 0.6rem
+            font-size: 0.75rem
         }
 
         .ecc__flip-card {
-            height: 12rem;
-            width: 12rem;
+            height: 13rem;
+            width: 13rem;
         }
 
         .ecc__top {
-            height: 10rem;
+            height: 10.5rem;
             padding: 1.3rem 1rem;
         }
 
         .ecc__img img {
-            min-height: 12rem;
+            min-height: 13rem;
         }
 
         .ecc__inside-page {
-            padding: 0.5rem;
-            width: 12rem;
+            width: 13rem;
         }
 
         .ecc__card:hover {
-            width: 24rem;
+            width: 26rem;
         }
     }
-    
-    @media (max-width: 390px) {
+
+    @media (max-width: 400px) {
         .ecc__card {
-            height: 10rem;
-            width: 10rem;
+            height: 11rem;
+            width: 11rem;
         }
 
         .ecc__heading {
-            font-size: 1rem;
-            margin-top: .2rem;
+            font-size: 1.3rem;
         }
 
         .ecc__inside-heading {
-            padding-bottom: 0.3rem;
             font-size: 1rem;
-            margin-top: 0.5rem;
         }
 
         .ecc__view {
-            font-size: 1rem;
-            margin-top: .4rem;
+            font-size: 1.1rem;
         }
 
         .ecc__desc {
-            font-size: 1rem;
-            margin-top: .2rem;
+            font-size: 1.2rem;
         }
 
         .ecc__icon {
             font-size: 2vw;
-            height: 3rem;
-            width: 3rem;
+            height: 2.5rem;
+            width: 2.5rem;
         }
 
         .ecc__btn {
-            font-size: 0.5rem;
-            margin-top: 0.2rem;
-            padding: .2rem .35rem;
-            width: 80%;
+            font-size: 0.8rem;
         }
 
         .ecc__text {
-            font-size: 0.6rem
+            font-size: 0.65rem
         }
 
         .ecc__flip-card {
-            height: 10rem;
-            width: 10rem;
+            height: 11rem;
+            width: 11rem;
         }
 
         .ecc__top {
-            height: 8rem;
-            padding: 1rem 0.3rem;
+            height: 8.5rem;
+            padding: 1.3rem 1rem;
         }
 
         .ecc__img img {
-            min-height: 10rem;
+            min-height: 11rem;
         }
 
         .ecc__inside-page {
-            padding: 0.3rem;
-            width: 10rem;
+            width: 11rem;
+            padding: 0.2rem;
         }
 
         .ecc__card:hover {
-            width: 20rem;
+            width: 22rem;
         }
     }
-
-    @media (max-width: 320px) {
+    
+    @media (max-width: 400px) {
         .ecc__card {
-            height: 8rem;
-            width: 8rem;
+            height: 9rem;
+            width: 9rem;
         }
 
         .ecc__heading {
-            font-size: 0.8rem;
-            margin-top: .1rem;
+            font-size: 1rem;
+            padding-bottom: 0;
         }
 
         .ecc__inside-heading {
-            padding-bottom: 0.2rem;
-            font-size: 0.7rem;
-            margin-top: 0.3rem;
+            font-size: 0.8rem;
         }
 
         .ecc__view {
-            font-size: 0.7rem;
-            margin-top: .4rem;
+            font-size: 0.9rem;
         }
 
         .ecc__desc {
-            font-size: 0.7rem;
-            margin-top: .1rem;
+            font-size: 0.9rem;
         }
 
         .ecc__icon {
-            font-size: 1vw;
-            height: 2rem;
-            width: 2rem;
+            font-size: 2vw;
+            height: 2.5rem;
+            width: 2.5rem;
         }
 
         .ecc__btn {
-            font-size: 0.5rem;
-            margin-top: 0.2rem;
-            padding: .1rem .35rem;
-            width: 80%;
+            font-size: 0.65rem;
         }
 
         .ecc__text {
-            font-size: 0.5rem
+            font-size: 0.55rem
         }
 
         .ecc__flip-card {
-            height: 8rem;
-            width: 8rem;
+            height: 9rem;
+            width: 9rem;
         }
 
         .ecc__top {
-            height: 6rem;
-            padding: 0.8rem 0.3rem;
+            height: 7rem;
+            padding: 1rem 1rem 1.2rem 1rem;
         }
 
         .ecc__img img {
-            min-height: 8rem;
+            min-height: 9rem;
         }
 
         .ecc__inside-page {
-            padding: 0.3rem;
-            width: 8rem;
+            width: 9rem;
+            padding: 0.1rem;
         }
 
         .ecc__card:hover {
-            width: 16rem;
+            width: 18rem;
         }
     }
+
     @media screen and (max-width: $tablet) {
         .footer{
             &__logo{

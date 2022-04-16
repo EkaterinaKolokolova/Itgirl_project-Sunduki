@@ -257,21 +257,22 @@ a {
         display: flex;
         height: 100%;
         justify-content: center;
+        flex: 1 0 auto;    
     }
-
+    
     &__card {
         background-color: rgba(0, 0, 0, .05);
         box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
-        height: 17rem;
+        height: 20rem;
         position: relative;
         transition: all 1s ease;
-        width: 17rem;
+        width: 20rem;
         margin: 0.5rem 0.2rem;
     }
 
     &__heading {
         font-family: $title-font, sans-serif;
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-top: .25rem;
         text-align: center;
     }
@@ -280,16 +281,16 @@ a {
         padding-bottom: 0.4rem;
         width: 100%;
         font-family: $title-font, sans-serif;
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         font-weight: 700;
         margin-top: .3rem;
     }
 
     &__view {
         font-family: $title-font, sans-serif;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 700;
-        margin-top: .3rem;
+        margin-top: .5rem;
     }
 
     &__inside-heading_exc,
@@ -314,28 +315,29 @@ a {
 
     &__desc {
         font-family: $title-font, sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         margin-top: .2rem;
         text-align: center;
     }
 
     &__text {
         color: #333;
+        font-size: 1.1rem;
     }
 
     &__icon {
         fill: #fafbfa;
-        font-size: 4vw;
-        height: 4.5rem;
+        font-size: 5vw;
+        height: 5.5rem;
         margin-top: -.5rem;
-        width: 4.5rem;
+        width: 5.5rem;
     }
 
     &__btn {
         background-color: transparent;
         border: 2px solid;
         border-radius: .5rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 700;
         margin-top: 0.3rem;
         overflow: hidden;
@@ -405,13 +407,13 @@ a {
     }
 
     &__flip-card {
-        height: 17rem;
+        height: 20rem;
         perspective: 100rem;
         position: absolute;
         right: 0;
         transition: all 1s ease;
         visibility: hidden;
-        width: 17rem;
+        width: 20rem;
         z-index: 100;
     }
 
@@ -445,9 +447,9 @@ a {
         clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
         display: flex;
         flex-direction: column;
-        height: 14rem;
+        height: 16em;
         justify-content: space-around;
-        padding: 2rem 1rem;
+        padding: 1rem 1.5rem 2.5rem 1.5rem;
         color: #fafbfa;
     }
 
@@ -490,7 +492,7 @@ a {
     &__img img {
         clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
         height: auto;
-        min-height: 17rem;
+        min-height: 20rem;
         object-fit: cover;
         width: 100%;
         object-position: center;
@@ -504,7 +506,7 @@ a {
         position: absolute;
         right: 0;
         transition: all 1s ease;
-        width: 17rem;
+        width: 20rem;
         z-index: 1;
     }
 
@@ -525,7 +527,7 @@ a {
     &__card:hover {
         box-shadow:
             -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
-        width: 34rem;
+        width: 40rem;
     }
 
     &__card:hover .ecc__container {
