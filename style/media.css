@@ -446,6 +446,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .contact {
+    margin: 0 auto -94px;
+  }
+  .contact__map {
+    height: 450px;
+  }
   .footer__logo {
     display: none;
   }

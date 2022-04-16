@@ -537,6 +537,12 @@ $desktop: 1280px;
 }
 
 @media screen and (max-width: $tablet) {
+    .contact {
+        margin: 0 auto -94px;
+        &__map {
+        height: 450px;
+        }
+    }
     .footer {
         &__logo {
             display: none;
