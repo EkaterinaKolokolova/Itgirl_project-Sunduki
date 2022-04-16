@@ -49,64 +49,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  body .ecc__card {
-    height: 17rem;
-    width: 17rem;
-  }
-  body .ecc__heading {
-    font-size: 2rem;
-    margin-top: .1rem;
-  }
-  body .ecc__inside-heading {
-    padding-bottom: 0.2rem;
-    font-size: 1.5rem;
-    margin-top: .1rem;
-  }
-  body .ecc__view {
-    font-size: 1.5rem;
-    margin-top: .1rem;
-  }
-  body .ecc__desc {
-    font-size: 1.5rem;
-    margin-top: .1rem;
-  }
-  body .ecc__icon {
-    font-size: 4vw;
-    height: 4.5rem;
-    width: 4.5rem;
-  }
-  body .ecc__btn {
-    border: 1px solid;
-    font-size: 1.2rem;
-    margin-top: 0.3rem;
-    padding: .2rem .35rem;
-    width: 90%;
-  }
-  body .ecc__text {
-    font-size: 0.9rem;
-  }
-  body .ecc__flip-card {
-    height: 17rem;
-    width: 17rem;
-  }
-  body .ecc__top {
-    height: 14rem;
-    padding: 1rem 1rem 1.5rem 1rem;
-  }
-  body .ecc__img img {
-    min-height: 17rem;
-  }
-  body .ecc__inside-page {
-    padding: 1rem;
-    width: 17rem;
-  }
-  body .ecc__card:hover {
-    width: 34rem;
-  }
-}
-
-@media (max-width: 550px) {
+@media screen and (max-width: 1380px) {
   body .ecc__card {
     height: 15rem;
     width: 15rem;
@@ -154,135 +97,19 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  body .ecc {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 470px) {
-  body .ecc__card {
-    height: 13rem;
-    width: 13rem;
+  body .wrapper {
+    display: none;
   }
-  body .ecc__inside-heading {
-    font-size: 1.2rem;
-  }
-  body .ecc__btn {
-    padding: .1rem .35rem;
-    font-size: 0.8rem;
-  }
-  body .ecc__text {
-    font-size: 0.7rem;
-  }
-  body .ecc__flip-card {
-    height: 13rem;
-    width: 13rem;
-  }
-  body .ecc__top {
-    height: 10.5rem;
-    padding: 1.3rem 1rem;
-  }
-  body .ecc__img img {
-    min-height: 13rem;
-  }
-  body .ecc__inside-page {
-    padding: 0.7rem;
-    width: 13rem;
-  }
-  body .ecc__card:hover {
-    width: 26rem;
-  }
-}
-
-@media (max-width: 400px) {
-  body .ecc__card {
-    height: 11rem;
-    width: 11rem;
-  }
-  body .ecc__heading {
-    font-size: 1.3rem;
-  }
-  body .ecc__inside-heading {
-    font-size: 1rem;
-  }
-  body .ecc__view {
-    font-size: 1.1rem;
-  }
-  body .ecc__desc {
-    font-size: 1.2rem;
-  }
-  body .ecc__icon {
-    font-size: 2vw;
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-  body .ecc__btn {
-    font-size: 0.65rem;
-  }
-  body .ecc__text {
-    font-size: 0.55rem;
-  }
-  body .ecc__flip-card {
-    height: 11rem;
-    width: 11rem;
-  }
-  body .ecc__top {
-    height: 8.5rem;
-    padding: 1.3rem 1rem;
-  }
-  body .ecc__img img {
-    min-height: 11rem;
-  }
-  body .ecc__inside-page {
-    width: 11rem;
-    padding: 0.5rem;
-  }
-  body .ecc__card:hover {
-    width: 22rem;
-  }
-}
-
-@media (max-width: 350px) {
-  body .ecc__card {
-    height: 9rem;
-    width: 9rem;
-  }
-  body .ecc__heading {
-    font-size: 1rem;
-    padding-bottom: 0;
-  }
-  body .ecc__inside-heading {
-    font-size: 0.8rem;
-  }
-  body .ecc__view {
-    font-size: 0.9rem;
-  }
-  body .ecc__desc {
-    font-size: 0.9rem;
-  }
-  body .ecc__icon {
-    font-size: 2vw;
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-  body .ecc__btn {
-    font-size: 0.55rem;
-  }
-  body .ecc__text {
-    font-size: 0.5rem;
-  }
-  body .ecc__flip-card {
-    height: 9rem;
-    width: 9rem;
-  }
-  body .ecc__top {
-    height: 7rem;
-    padding: 1rem 1rem 1.2rem 1rem;
-  }
-  body .ecc__img img {
-    min-height: 9rem;
-  }
-  body .ecc__inside-page {
-    width: 9rem;
-    padding: 0.3rem;
-  }
-  body .ecc__card:hover {
-    width: 18rem;
+  body .mobile {
+    display: block;
   }
 }
 
