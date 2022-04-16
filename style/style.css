@@ -295,8 +295,9 @@ a {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   height: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 
