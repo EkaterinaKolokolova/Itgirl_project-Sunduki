@@ -1,4 +1,4 @@
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
   body .news {
     margin: 0 30px;
   }
@@ -24,6 +24,19 @@
 @media screen and (min-width: 1023px) {
   body #navbar {
     display: none;
+  }
+  body .nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 3rem;
   }
 }
 
