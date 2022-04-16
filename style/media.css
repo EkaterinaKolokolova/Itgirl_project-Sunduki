@@ -1,17 +1,17 @@
 @media screen and (max-width: 1024px) {
-  body .news {
+  .news {
     margin: 0 30px;
   }
-  body .news__title {
+  .news__title {
     margin: 25px;
   }
-  body .news-block__title {
+  .news-block__title {
     margin: 20px 0px;
   }
-  body .news-block__date {
+  .news-block__date {
     max-width: 70px;
   }
-  body .news-block__main {
+  .news-block__main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -22,10 +22,10 @@
 }
 
 @media screen and (min-width: 1023px) {
-  body #navbar {
+  #navbar {
     display: none;
   }
-  body .nav-menu {
+  .nav-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -41,10 +41,10 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  body #navbar {
+  #navbar {
     display: none;
   }
-  body .nav-menu {
+  .nav-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -57,77 +57,77 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 766px) {
-  body .menu-logo {
+  .menu-logo {
     display: none;
   }
 }
 
 @media screen and (max-width: 1380px) {
-  body .ecc__card {
+  .ecc__card {
     height: 15rem;
     width: 15rem;
   }
-  body .ecc__heading {
+  .ecc__heading {
     font-size: 1.6rem;
   }
-  body .ecc__inside-heading {
+  .ecc__inside-heading {
     font-size: 1.2rem;
   }
-  body .ecc__view {
+  .ecc__view {
     font-size: 1.4rem;
   }
-  body .ecc__desc {
+  .ecc__desc {
     font-size: 1.3rem;
   }
-  body .ecc__icon {
+  .ecc__icon {
     font-size: 3vw;
     height: 3.5rem;
     width: 3.5rem;
   }
-  body .ecc__btn {
+  .ecc__btn {
     font-size: 1rem;
   }
-  body .ecc__text {
+  .ecc__text {
     font-size: 0.8rem;
   }
-  body .ecc__flip-card {
+  .ecc__flip-card {
     height: 15rem;
     width: 15rem;
   }
-  body .ecc__top {
+  .ecc__top {
     height: 12rem;
     padding: 1.3rem 1rem;
   }
-  body .ecc__img img {
+  .ecc__img img {
     min-height: 15rem;
   }
-  body .ecc__inside-page {
+  .ecc__inside-page {
     padding: 0.6rem;
     width: 15rem;
   }
-  body .ecc__card:hover {
+  .ecc__card:hover {
     width: 30rem;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  body .ecc {
+  .ecc {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 @media (max-width: 470px) {
-  body .wrapper {
+  .wrapper {
     display: none;
   }
-  body .mobile {
+  .mobile {
     display: block;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body .footer__logo {
+  .footer__logo {
     display: none;
   }
 }

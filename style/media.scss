@@ -3,7 +3,7 @@ $tablet: 768px;
 $big-tablet: 1024px;
 $desktop: 1280px;
 
-body {
+
     @media screen and (max-width: $big-tablet) {
         .news {
             margin: 0 30px;
@@ -144,4 +144,4 @@ body {
             }
         }
     }
-}
+
