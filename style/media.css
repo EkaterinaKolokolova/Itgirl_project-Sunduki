@@ -84,7 +84,7 @@
     width: 90%;
   }
   body .ecc__text {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   body .ecc__flip-card {
     height: 17rem;
@@ -98,7 +98,7 @@
     min-height: 17rem;
   }
   body .ecc__inside-page {
-    padding: 0.5rem;
+    padding: 1rem;
     width: 17rem;
   }
   body .ecc__card:hover {
@@ -115,7 +115,7 @@
     font-size: 1.6rem;
   }
   body .ecc__inside-heading {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   body .ecc__view {
     font-size: 1.4rem;
@@ -132,7 +132,7 @@
     font-size: 1rem;
   }
   body .ecc__text {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
   body .ecc__flip-card {
     height: 15rem;
@@ -146,6 +146,7 @@
     min-height: 15rem;
   }
   body .ecc__inside-page {
+    padding: 0.6rem;
     width: 15rem;
   }
   body .ecc__card:hover {
@@ -163,10 +164,10 @@
   }
   body .ecc__btn {
     padding: .1rem .35rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   body .ecc__text {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   body .ecc__flip-card {
     height: 13rem;
@@ -180,6 +181,7 @@
     min-height: 13rem;
   }
   body .ecc__inside-page {
+    padding: 0.7rem;
     width: 13rem;
   }
   body .ecc__card:hover {
@@ -210,10 +212,10 @@
     width: 2.5rem;
   }
   body .ecc__btn {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
   body .ecc__text {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
   body .ecc__flip-card {
     height: 11rem;
@@ -228,7 +230,7 @@
   }
   body .ecc__inside-page {
     width: 11rem;
-    padding: 0.2rem;
+    padding: 0.5rem;
   }
   body .ecc__card:hover {
     width: 22rem;
@@ -259,10 +261,10 @@
     width: 2.5rem;
   }
   body .ecc__btn {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
   body .ecc__text {
-    font-size: 0.55rem;
+    font-size: 0.5rem;
   }
   body .ecc__flip-card {
     height: 9rem;
@@ -277,7 +279,7 @@
   }
   body .ecc__inside-page {
     width: 9rem;
-    padding: 0.1rem;
+    padding: 0.3rem;
   }
   body .ecc__card:hover {
     width: 18rem;
