@@ -512,9 +512,37 @@ $desktop: 1280px;
     .mobile {
         display: block;
     }
+    
+    .contact {
+        margin: 0 auto -94px;
+        &__map {
+        height: 450px;
+        }
+
+        &__container {
+        margin: 10px 10px 10px 50px ;
+        }
+    }
+
+    .partners {
+        margin: 0 auto 6rem;
+        &__img {
+            width: 140px;
+        }
+        &__cart {
+            grid-template-columns: repeat(auto-fit, 140px);
+            gap: 15px;
+        }
+    }
 }
 
 @media screen and (max-width: $tablet) {
+    .contact {
+        margin: 0 auto -94px;
+        &__map {
+        height: 450px;
+        }
+    }
     .footer {
         &__logo {
             display: none;

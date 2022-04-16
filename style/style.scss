@@ -48,7 +48,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 15vh;
-    grid-template-areas: "logo-sunduki""nav-menu";
+    grid-template-areas: "logo-sunduki" "nav-menu";
 }
 
 .logo-sunduki {
@@ -800,12 +800,12 @@ h1 {
     &__cart {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, 25rem);
-        gap: 3rem;
+        grid-template-columns: repeat(auto-fit, 13rem);
+        gap: 2rem;
     }
 
     &__img {
-        width: 25rem;
+        width: 13rem;
     }
 }
 
@@ -814,9 +814,8 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 9rem;
     height: 34rem;
-    margin-bottom: 9rem;
 
     &__container {
         display: block;

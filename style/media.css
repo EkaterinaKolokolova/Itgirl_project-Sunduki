@@ -423,9 +423,35 @@
   .mobile {
     display: block;
   }
+  .contact {
+    margin: 0 auto -94px;
+  }
+  .contact__map {
+    height: 450px;
+  }
+  .contact__container {
+    margin: 10px 10px 10px 50px;
+  }
+  .partners {
+    margin: 0 auto 6rem;
+  }
+  .partners__img {
+    width: 140px;
+  }
+  .partners__cart {
+    -ms-grid-columns: (140px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 140px);
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .contact {
+    margin: 0 auto -94px;
+  }
+  .contact__map {
+    height: 450px;
+  }
   .footer__logo {
     display: none;
   }
