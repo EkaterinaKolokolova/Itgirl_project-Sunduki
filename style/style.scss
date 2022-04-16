@@ -1,3 +1,9 @@
+$main-font: 'Roboto',
+sans-serif;
+$title-font: 'Ardeco',
+sans-serif;
+$black: #000;
+
 @font-face {
     font-family: 'Ardeco';
     src: url(../assets/fonts/Ardeco/Ardeco.ttf);
@@ -849,12 +855,12 @@ h1 {
     &__cart {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, 25rem);
+        grid-template-columns: repeat(auto-fit, 13rem);
         gap: 3rem;
     }
 
     &__img {
-        width: 25rem;
+        width: 13rem;
     }
 }
 

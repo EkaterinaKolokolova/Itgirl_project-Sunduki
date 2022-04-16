@@ -236,11 +236,11 @@ body {
         .partners {
             margin: 0 auto 6rem;
             &__img {
-                width: 280px;
+                width: 140px;
             }
             &__cart {
-                grid-template-columns: repeat(auto-fit, 280px);
-                gap: 20px;
+                grid-template-columns: repeat(auto-fit, 140px);
+                gap: 15px;
             }
         }
     }

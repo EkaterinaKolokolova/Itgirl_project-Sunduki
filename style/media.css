@@ -198,12 +198,12 @@
     margin: 0 auto 6rem;
   }
   body .partners__img {
-    width: 280px;
+    width: 140px;
   }
   body .partners__cart {
-    -ms-grid-columns: (280px)[auto-fit];
-        grid-template-columns: repeat(auto-fit, 280px);
-    gap: 20px;
+    -ms-grid-columns: (140px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 140px);
+    gap: 15px;
   }
 }
 
