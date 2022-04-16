@@ -31,13 +31,56 @@ a:hover {
 
 /*!--About Project*/
 .banner {
-  background-image: url(../assets/img/sunduki-main.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  width: 100%;
+  padding: 0;
+  margin-right: 0;
+}
+
+.banner__hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  margin: 0;
+  font-family: "Ardeco", sans-serif;
+  color: #2f2815;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(126, 116, 93, 0.3)), to(rgba(126, 116, 93, 0.9))), url("../assets/img/sunduki-main.jpg");
+  background-image: linear-gradient(rgba(126, 116, 93, 0.3), rgba(126, 116, 93, 0.9)), url("../assets/img/sunduki-main.jpg");
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.banner__hero-wrapper {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.banner__hero-header {
+  font-size: 3.5rem;
+  line-height: 3.6rem;
+  color: #fff;
+}
+
+.banner__hero-subheader {
+  font-size: 1.5rem;
+  line-height: 1.575rem;
+  color: #fff;
 }
 
 .about {
@@ -63,7 +106,7 @@ a:hover {
 }
 
 .about__title {
-  padding: 4.1rem 3.3rem;
+  padding: 1.1rem 3.3rem 4.1rem 3.3rem;
   text-align: center;
 }
 
