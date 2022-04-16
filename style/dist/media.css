@@ -12,56 +12,38 @@
     max-width: 70px;
   }
   body .news-block__main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 30px;
     gap: 15px;
   }
 }
-
 @media screen and (min-width: 1023px) {
   body #navbar {
     display: none;
   }
   body .nav-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
     margin-left: 3rem;
   }
 }
-
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   body #navbar {
     display: none;
   }
   body .nav-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-left: 5rem;
   }
 }
-
 @media screen and (min-width: 300px) and (max-width: 766px) {
   body .menu-logo {
     display: none;
   }
 }
-
 @media screen and (max-width: 650px) {
   body .ecc__card {
     height: 17rem;
@@ -69,20 +51,20 @@
   }
   body .ecc__heading {
     font-size: 2rem;
-    margin-top: .1rem;
+    margin-top: 0.1rem;
   }
   body .ecc__inside-heading {
     padding-bottom: 0.2rem;
     font-size: 1.5rem;
-    margin-top: .1rem;
+    margin-top: 0.1rem;
   }
   body .ecc__view {
     font-size: 1.5rem;
-    margin-top: .1rem;
+    margin-top: 0.1rem;
   }
   body .ecc__desc {
     font-size: 1.5rem;
-    margin-top: .1rem;
+    margin-top: 0.1rem;
   }
   body .ecc__icon {
     font-size: 4vw;
@@ -93,7 +75,7 @@
     border: 1px solid;
     font-size: 1.2rem;
     margin-top: 0.3rem;
-    padding: .2rem .35rem;
+    padding: 0.2rem 0.35rem;
     width: 90%;
   }
   body .ecc__text {
@@ -118,7 +100,6 @@
     width: 34rem;
   }
 }
-
 @media (max-width: 550px) {
   body .ecc__card {
     height: 15rem;
@@ -165,7 +146,6 @@
     width: 30rem;
   }
 }
-
 @media (max-width: 470px) {
   body .ecc__card {
     height: 13rem;
@@ -175,7 +155,7 @@
     font-size: 1.2rem;
   }
   body .ecc__btn {
-    padding: .1rem .35rem;
+    padding: 0.1rem 0.35rem;
     font-size: 1rem;
   }
   body .ecc__text {
@@ -199,7 +179,6 @@
     width: 26rem;
   }
 }
-
 @media (max-width: 400px) {
   body .ecc__card {
     height: 11rem;
@@ -247,7 +226,6 @@
     width: 22rem;
   }
 }
-
 @media (max-width: 350px) {
   body .ecc__card {
     height: 9rem;
@@ -296,10 +274,8 @@
     width: 18rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   body .footer__logo {
     display: none;
   }
 }
-/*# sourceMappingURL=media.css.map */
