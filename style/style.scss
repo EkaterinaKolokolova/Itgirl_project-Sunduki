@@ -693,8 +693,8 @@ h1 {
 /*events*/
 
 .list-of-events {
-    padding: 10px;
-    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -748,6 +748,7 @@ h1 {
     min-width: 25rem;
     transition: transform 0.5s
 }
+
 
 .events-boxes:hover {
     -webkit-transform: scale(1.2);
