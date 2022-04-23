@@ -256,20 +256,20 @@ h1 {
     }
 
     &__text-wrapper {
-        margin-top: 16px;
+        padding: 1.1rem 3.3rem 3.5rem 3.3rem;
+        text-align: center;
     }
 
     &__text-title {
         font-family: $title-font;
         text-align: center;
         font-size: 3rem;
-        font-weight: 400;
-        line-height: 3.175rem;
+        font-weight: 700;
+        margin: 2rem 0;
     }
 
     &__text-body {
-        margin: 1.875rem 6.875rem;
-        line-height: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
