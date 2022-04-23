@@ -2,7 +2,8 @@ $main-font: 'Roboto',
 sans-serif;
 $title-font: 'Ardeco',
 sans-serif;
-$black: #000;
+$dark-brown: #000;
+$dark-brown: #4d4637;
 
 @font-face {
     font-family: 'Ardeco';
@@ -21,55 +22,24 @@ $black: #000;
 
 body {
     box-sizing: border-box;
-    font-family: $main-font, sans-serif;
+    font-family: $main-font;
     position: relative;
+    color: $dark-brown;
 }
 
 a {
     text-decoration: none;
-    color: #000000;
-}
+    color: $dark-brown;
 
-a:hover {
-    text-decoration: underline;
-}
-
-/*!--About Project*/
-.banner {
-    background-image: url(../assets/img/sunduki-main.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    &__head {
-        font-family: Ardeco;
-        font-size: 48px;
-    }
-
-    &__images {
-        width: 100%;
-    }
-
-    &__title {
-        padding: 4.1rem 3.3rem;
-        text-align: center;
-    }
-    &____text {
-        font-size: 20px;
+    &:hover {
+        text-decoration: underline;
     }
 }
 
-a {
-    color: #4d4637;
-    text-decoration: none;
+h1 {
+    font-size: 3rem;
+    color: $dark-brown;
+    font-family: $title-font;
 }
 
 /*Header*/
@@ -86,6 +56,23 @@ a {
     grid-area: logo-sunduki;
     grid-row: 1;
     grid-column: 1;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #4D4637;
+    font-family: $title-font;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5rem;
+    grid-area: nav-menu;
+    grid-row: 1;
+    grid-column: 2;
 }
 
 #top {
@@ -213,21 +200,39 @@ a {
     }
 }
 
-.nav-menu {
+/*!--About Project*/
+.banner {
+    background-image: url(../assets/img/sunduki-main.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    color: #4D4637;
-    font-family: $title-font;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 30px;
-    text-align: center;
-    margin-right: 5rem;
-    grid-area: nav-menu;
-    grid-row: 1;
-    grid-column: 2;
+
+    &__head {
+        font-family: Ardeco;
+        font-size: 48px;
+    }
+
+    &__images {
+        width: 100%;
+    }
+
+    &__title {
+        padding: 1.1rem 3.3rem 4.1rem 3.3rem;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 1.3rem;
+    }
 }
 
 /*Excursions, coliving, coworking*/
@@ -256,9 +261,9 @@ a {
         display: flex;
         height: 100%;
         justify-content: center;
-        flex: 1 0 auto;    
+        flex: 1 0 auto;
     }
-    
+
     &__card {
         background-color: rgba(0, 0, 0, .05);
         box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
@@ -588,7 +593,7 @@ a {
         padding: 0.5rem;
         color: #333;
         text-align: center;
-    }   
+    }
 
     &__descr p {
         font-size: 1rem;
@@ -610,7 +615,6 @@ a {
 
     &__title {
         font-family: $title-font;
-        font-size: 3rem;
         text-align: center;
         margin: 40px;
     }
@@ -618,7 +622,7 @@ a {
 
 .news-container {
     &:last-child {
-        border-bottom: 1px solid $black;
+        border-bottom: 1px solid $dark-brown;
     }
 }
 
@@ -627,8 +631,8 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-top: 1px solid $black;
-        border-bottom: 1px solid $black;
+        border-top: 1px solid $dark-brown;
+        border-bottom: 1px solid $dark-brown;
     }
 
     &__title {
@@ -641,13 +645,18 @@ a {
         font-family: $title-font;
         max-width: 100px;
         font-size: 1.25rem;
+
+        &_info {
+            font-family: $main-font;
+        }
     }
 
     &__main {
         display: flex;
         justify-content: space-evenly;
+        gap: 15px;
         align-items: center;
-        padding: 65px 30px;
+        padding: 50px 30px;
     }
 
     &__img {
@@ -659,7 +668,7 @@ a {
         border-radius: 5%;
 
         &_news1 {
-            background-image: url(../assets/img/grandma.jpg);
+            background-image: url(../assets/img/church-2.jpg);
             background-position: center;
         }
 
@@ -673,8 +682,8 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.25rem;
-        text-align: center;
+        text-align: justify;
+        font-size: 1.3rem;
         max-width: 700px;
         margin: 0;
     }
@@ -702,13 +711,6 @@ a {
     font-family: Roboto;
 
 }
-
-h1 {
-    font-size: 3rem;
-    color: #2f2815;
-    font-family: Ardeco, serif;
-}
-
 
 #events-section-title {
     margin: 5px 0px 45px;
@@ -857,6 +859,7 @@ h1 {
     background-color: #C4C4C4;
     text-align: center;
     position: relative;
+
     &__logo {
         background-image: url(../assets/img/logo.png);
         background-position: center center;
@@ -882,14 +885,15 @@ h1 {
         height: 55px;
         padding: 10px;
     }
+
     &__text {
         font-size: 15px;
         padding: 10px;
     }
+
     &__project {
         font-size: 10px;
         color: #747474;
         padding: 5px;
     }
 }
-
