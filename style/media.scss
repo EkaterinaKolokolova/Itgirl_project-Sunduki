@@ -512,12 +512,130 @@ $desktop: 1280px;
     .mobile {
         display: block;
     }
+    
+    .contact {
+        margin: 0 auto -94px;
+        &__map {
+        height: 450px;
+        }
+
+        &__container {
+        margin: 10px 10px 10px 50px ;
+        }
+    }
+
+    .partners {
+        margin: 0 auto 6rem;
+        &__img {
+            width: 140px;
+        }
+        &__cart {
+            grid-template-columns: repeat(auto-fit, 140px);
+            gap: 15px;
+        }
+    }
 }
 
 @media screen and (max-width: $tablet) {
+    .contact {
+        margin: 0 auto -94px;
+        &__map {
+        height: 450px;
+        }
+    }
     .footer {
         &__logo {
             display: none;
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .list-of-events {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100vh;
+    }
+    
+    .div-events {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-top: 40px;
+        font-family: Roboto;
+    
+    }
+    
+    #events-section-title {
+        margin: 5px 0px 45px;
+    
+    }
+    
+    .list-of-events-options {
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100vh;
+    
+    
+    }
+    
+    .events-box {
+        display: flex;
+        min-height: 70px;
+        border-right: 1px solid;
+        border-color: #2f2815;
+        border-top: 1px solid;
+        align-items: stretch;
+        margin-left: 50px;
+    
+    
+    }
+    
+    .events-boxes {
+        padding-bottom: 100px;
+        width: 100%;
+        min-width: 25rem;
+        transition: transform 0.5s
+    }
+    
+    
+    .events-boxes:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.1);
+    }
+    
+    .events-box-data {
+        min-width: 100px;
+    
+    }
+    
+    .month-year {
+        text-transform: uppercase;
+        margin: 0px;
+    
+    
+    
+    }
+    
+    .data {
+        margin: 10px 0px 0px;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2f2815;
+    
+    }
+    
+    .events-box-events-text {
+        margin: 10px;
+        font-weight: normal;
+        font-size: 1.3rem;
+    }}
+    

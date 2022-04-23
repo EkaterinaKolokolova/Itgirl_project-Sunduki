@@ -79,6 +79,7 @@ h1 {
   line-height: 30px;
   text-align: center;
   margin-right: 5rem;
+  margin-left: 2rem;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: nav-menu;
@@ -860,8 +861,8 @@ h1 {
 
 /*events*/
 .list-of-events {
-  padding: 10px;
-  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -989,13 +990,13 @@ h1 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -ms-grid-columns: (25rem) [auto-fit];
-  grid-template-columns: repeat(auto-fit, 25rem);
-  gap: 3rem;
+  -ms-grid-columns: (13rem) [auto-fit];
+  grid-template-columns: repeat(auto-fit, 13rem);
+  gap: 2rem;
 }
 
 .partners__img {
-  width: 25rem;
+  width: 13rem;
 }
 
 /*Contact*/
@@ -1008,9 +1009,8 @@ h1 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 auto 9rem;
   height: 34rem;
-  margin-bottom: 9rem;
 }
 
 .contact__container {

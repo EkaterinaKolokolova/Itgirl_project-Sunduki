@@ -70,6 +70,7 @@ h1 {
     line-height: 30px;
     text-align: center;
     margin-right: 5rem;
+    margin-left: 2rem;
     grid-area: nav-menu;
     grid-row: 1;
     grid-column: 2;
@@ -692,8 +693,8 @@ h1 {
 /*events*/
 
 .list-of-events {
-    padding: 10px;
-    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -748,6 +749,7 @@ h1 {
     transition: transform 0.5s
 }
 
+
 .events-boxes:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -800,12 +802,12 @@ h1 {
     &__cart {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, 25rem);
-        gap: 3rem;
+        grid-template-columns: repeat(auto-fit, 13rem);
+        gap: 2rem;
     }
 
     &__img {
-        width: 25rem;
+        width: 13rem;
     }
 }
 
@@ -814,9 +816,8 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 9rem;
     height: 34rem;
-    margin-bottom: 9rem;
 
     &__container {
         display: block;
